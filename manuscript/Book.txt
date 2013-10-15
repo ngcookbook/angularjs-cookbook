@@ -1,2 +1,16 @@
 introduction.md
-recipes/create-something-nice.md
+recipes/mainmatter.md
+
+recipes/directives/!part.md
+recipes/directives/slide-with-ng-animate.md
+
+recipes/controllers/!part.md
+
+recipes/services/!part.md
+
+recipes/filters/!part.md
+
+recipes/testing/!part.md
+
+recipes/quickies/!part.md
+recipes/quickies/stop-nested-click-events.md
