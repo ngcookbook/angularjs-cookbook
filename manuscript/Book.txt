@@ -3,6 +3,7 @@ recipes/mainmatter.md
 
 recipes/directives/!part.md
 recipes/directives/slide-with-ng-animate.md
+recipes/directives/theme-support.md
 
 recipes/controllers/!part.md
 
