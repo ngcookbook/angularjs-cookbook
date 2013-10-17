@@ -1,0 +1,2 @@
+# TODO: Manage frontend dependencies
+

@@ -1,17 +1,63 @@
 introduction.md
-recipes/mainmatter.md
 
-recipes/directives/!part.md
-recipes/directives/slide-with-ng-animate.md
-recipes/directives/theme-support.md
+recipes/parts/mainmatter.md
 
-recipes/controllers/!part.md
+recipes/parts/directives.md
+recipes/directives-ng-view-slide-animation.md
+recipes/directives-stop-nested-click-events-quickie.md
+recipes/directives-theme-support.md
+recipes/unfinished/directives-analog-clock.md
+recipes/unfinished/directives-change-the-curly-braces-syntax.md
+recipes/unfinished/directives-dynamic-service-loading.md
+recipes/unfinished/directives-form-reset.md
+recipes/unfinished/directives-initialized-data-on-startup.md
+recipes/unfinished/directives-make-a-sortable-table.md
+recipes/unfinished/directives-q-how-to-write-to-element.md
+recipes/unfinished/directives-select-and-ng-options.md
 
-recipes/services/!part.md
+recipes/parts/controllers.md
+recipes/unfinished/controllers-communication.md
+recipes/unfinished/controllers-q-multiple-watcher-syntax.md
 
-recipes/filters/!part.md
+recipes/parts/services.md
+recipes/unfinished/services-dialog.md
+recipes/unfinished/services-heavy-computations.md
+recipes/unfinished/services-how-to-structure-it.md
+recipes/unfinished/services-local-storage.md
+recipes/unfinished/services-notifications.md
+recipes/unfinished/services-q-http-global-timeout.md
+recipes/unfinished/services-shortcuts.md
 
-recipes/testing/!part.md
+recipes/parts/filters.md
+recipes/unfinished/filters-exact-match.md
+recipes/unfinished/filters-shuffle-collection.md
+recipes/unfinished/filters-splitting-comma-separated-strings.md
+recipes/unfinished/filters-the-filter-filter.md
 
-recipes/quickies/!part.md
-recipes/quickies/stop-nested-click-events.md
+recipes/parts/promises.md
+recipes/promises-transform-callback.md
+recipes/unfinished/promises-wait-for-several-events.md
+
+recipes/parts/testing.md
+recipes/unfinished/testing-mock-http-requests.md
+recipes/unfinished/testing-private-service-methods.md
+recipes/unfinished/testing-providers-with-config.md
+recipes/unfinished/testing-simulate-click-events.md
+recipes/unfinished/testing-simulate-key-events.md
+
+recipes/parts/3rd-party.md
+recipes/unfinished/3rd-party-chosen.md
+
+recipes/parts/big-picture.md
+recipes/unfinished/big-picture-angularjs-coffeescript.md
+recipes/unfinished/big-picture-desktop-like-applications.md
+recipes/unfinished/big-picture-finding-performance-bottlenecks.md
+recipes/unfinished/big-picture-internet-explorer.md
+recipes/unfinished/big-picture-javascript-es5.md
+recipes/unfinished/big-picture-manage-dependencies.md
+recipes/unfinished/big-picture-prefill-template-cache.md
+recipes/unfinished/big-picture-regular-urls-without-hash.md
+recipes/unfinished/big-picture-router-functions-and-wildcards.md
+recipes/unfinished/big-picture-save-apply.md
+recipes/unfinished/big-picture-spreading-route-definitions.md
+
