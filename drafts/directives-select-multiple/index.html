@@ -6,9 +6,9 @@
 </head>
 <body ng-controller="MainController">
 
-jo
-{{ form }}
+    <select multiple ng-model="selected" ng-options="person.id as person.name for person in people"></select>
 
+    {{ selected }}
 
 </body>
 </html>

@@ -3,10 +3,10 @@
     <title>AngularJS Cookbook</title>
     <script src="../vendor/angular.js"></script>
     <script src="application.js"></script>
-    <link rel="stylesheet" ng-href="style.css"/>
 </head>
 <body ng-controller="MainController">
 
-<select ng-model="test" dynamic></select>
+    <dynamic-select model="personId" resource="People.getList" resource-id="id" resource-label="name" />
+
 </body>
 </html>

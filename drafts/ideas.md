@@ -4,6 +4,9 @@ Recipes for AngularJS
 http://stackoverflow.com/questions/17895814/angularjs-difference-between-route-and-routerprovider
 
 
+ng-repeat track by
+
+
 -# Mixed Recipes
 
 * Compile from 3rd party (http://stackoverflow.com/questions/14034091/compile-angularjs-template-to-show-on-a-notification)
@@ -11,19 +14,15 @@ http://stackoverflow.com/questions/17895814/angularjs-difference-between-route-a
 * How to synchronize with websockets
 * How to update views with a backend service ($apply)
 * How to speed up long lists
-* Switch locales on the fly (http://stackoverflow.com/questions/13007430/angularjs-and-locale)
 * Load view before route change
 * Protecting routes (auth) (http://stackoverflow.com/questions/17209203/angularjs-protecting-routes-with-angularjs-depending-if-the-user-* is-authorized)
 * Full text search box with Lunr.js http://lunrjs.com/
-* Oauth
-* List: Invert / None / All
 * Scrollable list
 * Where to put the angular.js javascript
 * D3 charts
 * Getting soap data
 * Listen to window resize event in directive
 * compile your own with angular
-* Prototype inheritance controller
 * $http and jsonp
 * Jcrop with angularjs (http://stackoverflow.com/questions/14319177/image-crop-with-angularjs)
 * get the current app’s name (http://stackoverflow.com/questions/17502055/retrieve-angularjs-app-name)
@@ -32,7 +31,6 @@ http://stackoverflow.com/questions/17895814/angularjs-difference-between-route-a
 * Use AngularJS with WebWorkers (http://stackoverflow.com/questions/16713925/angularjs-and-web-workers)
 * How to use the dot on the scope correctly (http://stackoverflow.com/questions/14049480/what-are-the-nuances-of-scope-prototypal-* prototypical-inheritance-in-angularjs/14049482#14049482)
 * dynamic form fields (http://stackoverflow.com/questions/15296949/how-can-i-use-angular-to-output-dynamic-form-fields)
-* wait till view is loaded (http://stackoverflow.com/questions/12304291/angularjs-how-to-run-additional-code-after-angularjs-has-rendered* -a-template)
 * filtering by multiple checkboxes (http://stackoverflow.com/questions/16457809/filtering-by-multiple-checkboxes-in-angularjs)
 * limit textarea character size
 * Replace history path (http://stackoverflow.com/questions/19193504/replace-history-and-then-redirect-in-angularjs)
