@@ -26,7 +26,6 @@ http://stackoverflow.com/questions/17895814/angularjs-difference-between-route-a
 * Prototype inheritance controller
 * $http and jsonp
 * Jcrop with angularjs (http://stackoverflow.com/questions/14319177/image-crop-with-angularjs)
-* Scope destroy event (http://stackoverflow.com/questions/14522426/destroy-directive-child-scope-on-scope-destroy)
 * get the current app’s name (http://stackoverflow.com/questions/17502055/retrieve-angularjs-app-name)
 * External links with target=”_blank” (http://stackoverflow.com/questions/11726249/post-processing-the-dom-in-angularjs)
 * Dynamic TemplateURL(http://stackoverflow.com/questions/17074454/dynamic-templateurl-angularjs)
@@ -73,6 +72,8 @@ http://stackoverflow.com/questions/17895814/angularjs-difference-between-route-a
 * addthis plugin (http://stackoverflow.com/questions/15593039/angularjs-and-addthis-social-plugin)
 * Make .find() working with angular.element() (http://stackoverflow.com/questions/14865965/angularjs-directive-element-find)
 
+
+* Use of Interceptors
 
 -# Testing Recipes
 

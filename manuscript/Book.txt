@@ -12,9 +12,9 @@ recipes/unfinished/directives-birthdate-select.md
 recipes/unfinished/directives-create-svg-on-the-fly.md
 recipes/unfinished/directives-drag-and-drop.md
 recipes/unfinished/directives-dynamic-service-loading.md
-recipes/unfinished/directives-form-reset.md
 recipes/unfinished/directives-initialized-data-on-startup.md
 recipes/unfinished/directives-make-a-sortable-table.md
+recipes/unfinished/directives-markdown-live-preview.md
 recipes/unfinished/directives-q-how-to-write-to-element.md
 recipes/unfinished/directives-q-submit-form-on-enter.md
 recipes/unfinished/directives-select-and-ng-options.md
@@ -23,6 +23,7 @@ recipes/unfinished/directives-uniqueness-validator.md
 
 recipes/parts/controllers.md
 recipes/unfinished/controllers-communication.md
+recipes/unfinished/controllers-form-reset.md
 recipes/unfinished/controllers-q-multiple-watcher-syntax.md
 
 recipes/parts/services.md
@@ -58,6 +59,7 @@ recipes/unfinished/3rd-party-chosen.md
 
 recipes/parts/big-picture.md
 recipes/unfinished/big-picture-angularjs-coffeescript.md
+recipes/unfinished/big-picture-clean-up-with-scope-destroy.md
 recipes/unfinished/big-picture-desktop-like-applications.md
 recipes/unfinished/big-picture-execute-code-at-startup.md
 recipes/unfinished/big-picture-finding-performance-bottlenecks.md
