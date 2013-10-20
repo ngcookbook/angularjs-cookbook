@@ -1,6 +1,8 @@
 angular.module('cookbookApp', [])
     .factory('People', function($http) {
-        return { getList: $http.get('person.json') };
+        return {
+            getList: function() { return $http.get('person.json'); }
+        };
     })
     .directive('dynamicSelect', function($injector) {
         return {
@@ -17,7 +19,7 @@ angular.module('cookbookApp', [])
 
                 var service = $injector.get(params.name);
 
-                service[params.fn].then(function(serviceResponse) {
+                service[params.fn]().then(function(serviceResponse) {
                     scope.items = serviceResponse.data;
                 });
             }
