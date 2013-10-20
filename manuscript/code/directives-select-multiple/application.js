@@ -7,5 +7,4 @@ angular.module('cookbookApp', [])
         ];
 
         $scope.selected = [1,2];
-
     });
