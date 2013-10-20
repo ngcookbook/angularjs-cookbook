@@ -4,6 +4,7 @@ recipes/parts/mainmatter.md
 
 recipes/parts/directives.md
 recipes/directives-change-the-curly-braces-syntax.md
+recipes/directives-dynamic-service-loading.md
 recipes/directives-ng-view-slide-animation.md
 recipes/directives-stop-nested-click-events-quickie.md
 recipes/directives-theme-support.md
@@ -11,7 +12,6 @@ recipes/unfinished/directives-analog-clock.md
 recipes/unfinished/directives-birthdate-select.md
 recipes/unfinished/directives-create-svg-on-the-fly.md
 recipes/unfinished/directives-drag-and-drop.md
-recipes/unfinished/directives-dynamic-service-loading.md
 recipes/unfinished/directives-initialized-data-on-startup.md
 recipes/unfinished/directives-make-a-sortable-table.md
 recipes/unfinished/directives-markdown-live-preview.md
@@ -23,7 +23,7 @@ recipes/unfinished/directives-syntax-highlighter.md
 recipes/unfinished/directives-uniqueness-validator.md
 
 recipes/parts/controllers.md
-recipes/unfinished/controllers-all-none-invert.md
+recipes/controllers-all-none-invert.md
 recipes/unfinished/controllers-communication.md
 recipes/unfinished/controllers-form-reset.md
 recipes/unfinished/controllers-q-multiple-watcher-syntax.md

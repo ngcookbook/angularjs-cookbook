@@ -3,7 +3,6 @@
     <title>AngularJS Cookbook</title>
     <script src="../vendor/angular.js"></script>
     <script src="application.js"></script>
-    <link rel="stylesheet" ng-href="style.css"/>
 </head>
 <body ng-controller="MainController">
 
@@ -13,8 +12,7 @@
 
     <ul>
         <li ng-repeat="task in tasks">
-            <input type="checkbox" ng-model="task.completed"/>
-            {{ task.title }}
+            <input type="checkbox" ng-model="task.completed"/> {{ task.title }}
         </li>
     </ul>
 
