@@ -3,35 +3,41 @@ angular.module('cookbookApp', [])
         return {
             restrict: 'E',
             template:
-                '<select ng-model="month" ng-options="month.value as month.label for month in months"></select>' +
-                '<select ng-model="day" ng-options="day for day in days"></select>' +
-                '<select ng-model="year" ng-options="year for year in years"></select>',
+                '<select ng-model="date.month" ng-options="month for month in months"></select>' +
+                '<select ng-model="date.day" ng-options="day for day in days"></select>' +
+                '<select ng-model="date.year" ng-options="year for year in years"></select>',
             scope : {
                 model: '='
             },
             link: function(scope) {
-                var i, modelChanged;
+                var i;
+                scope.date = {};
                 scope.days = [];
                 for (i = 1; i <= 30; i++) { scope.days.push(i); }
 
                 scope.months = [];
-                for (i = 1; i <= 12; i++) { scope.months.push({ id: i-1, label: i }); }
+                for (i = 0; i <= 11; i++) { scope.months.push(i); }
 
                 scope.years = [];
                 for (i = 1980; i <= (new Date().getFullYear()); i++) { scope.years.push(i); }
 
-
-                scope.$watch('model', function(value) {
-
+                scope.$watch('[model, date]', function(newValues, oldValues) {
+                    if (newValues[0] !== oldValues[0]) {
+                        scope.date.month = newValues[0].getMonth() +1;
+                        scope.date.day = newValues[0].getDate();
+                        scope.date.year = newValues[0].getFullYear();
+                    }
+                    if (newValues[1] !== oldValues[1]) {
+                        console.log(newValues[1]);
+                        scope.model.setDate(newValues[1].day);
+                        scope.model.setMonth(newValues[1].month -1);
+                        scope.model.setFullYear(newValues[1].year);
+                    }
                 }, true);
-                scope.$watch('day',   function(value) { scope.model.setDate(value); });
-                scope.$watch('month', function(value) { scope.model.setMonth(value); });
-                scope.$watch('year',  function(value) { scope.model.setFullYear(value); });
             }
         };
     })
    .controller('MainController', function($scope) {
-
         $scope.current = new Date();
     });
 

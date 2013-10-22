@@ -38,6 +38,7 @@
         "jQuery": false,
         "KeyEvent": false,
         "alert": false,
-        "$": false
+        "$": false,
+        "Prism": false
     }
 }

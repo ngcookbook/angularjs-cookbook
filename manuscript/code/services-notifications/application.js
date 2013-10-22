@@ -35,7 +35,7 @@ angular.module('cookbookApp', [])
     })
     .controller('MainController', function($scope, NotificationService) {
         $scope.addNotification = function(sticky) {
-            NotificationService.add(new Date(), sticky, 3000);
+            NotificationService.add(new Date(), sticky, 1000);
         };
     });
 

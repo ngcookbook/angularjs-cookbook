@@ -11,11 +11,11 @@ parts.forEach(function (part) {
     console.log('recipes/parts/'+part+'.md');
     book.write('recipes/parts/'+part+'.md\n');
 
-    fs.readdirSync('recipes').forEach(function (filename) {
+    fs.readdirSync('recipes/done').forEach(function (filename) {
         if (filename.indexOf(part+'-') === 0) {
             if (filename.indexOf('-q-') !== -1) { quickies += 1; }
-            console.log('recipes/'+filename);
-            book.write('recipes/'+filename+'\n');
+            console.log('recipes/done/'+filename);
+            book.write('recipes/done/'+filename+'\n');
             finished += 1;
         }
     });

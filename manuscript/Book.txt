@@ -3,11 +3,13 @@ introduction.md
 recipes/parts/mainmatter.md
 
 recipes/parts/directives.md
-recipes/directives-change-the-curly-braces-syntax.md
-recipes/directives-dynamic-service-loading.md
-recipes/directives-ng-view-slide-animation.md
-recipes/directives-stop-nested-click-events-quickie.md
-recipes/directives-theme-support.md
+recipes/done/directives-change-the-curly-braces-syntax.md
+recipes/done/directives-dynamic-service-loading.md
+recipes/done/directives-ng-view-slide-animation.md
+recipes/done/directives-select-multiple.md
+recipes/done/directives-stop-nested-click-events-quickie.md
+recipes/done/directives-syntax-highlighter.md
+recipes/done/directives-theme-support.md
 recipes/unfinished/directives-analog-clock.md
 recipes/unfinished/directives-birthdate-select.md
 recipes/unfinished/directives-create-svg-on-the-fly.md
@@ -18,18 +20,16 @@ recipes/unfinished/directives-markdown-live-preview.md
 recipes/unfinished/directives-q-how-to-write-to-element.md
 recipes/unfinished/directives-q-submit-form-on-enter.md
 recipes/unfinished/directives-select-and-ng-options.md
-recipes/unfinished/directives-select-multiple.md
-recipes/unfinished/directives-syntax-highlighter.md
 recipes/unfinished/directives-uniqueness-validator.md
 
 recipes/parts/controllers.md
-recipes/controllers-all-none-invert.md
+recipes/done/controllers-all-none-invert.md
+recipes/done/controllers-form-reset.md
 recipes/unfinished/controllers-communication.md
-recipes/unfinished/controllers-form-reset.md
 recipes/unfinished/controllers-q-multiple-watcher-syntax.md
 
 recipes/parts/services.md
-recipes/services-notifications.md
+recipes/done/services-notifications.md
 recipes/unfinished/services-dialog.md
 recipes/unfinished/services-heavy-computations.md
 recipes/unfinished/services-how-to-structure.md
@@ -44,7 +44,7 @@ recipes/unfinished/filters-splitting-comma-separated-strings.md
 recipes/unfinished/filters-the-filter-filter.md
 
 recipes/parts/promises.md
-recipes/promises-transform-callback.md
+recipes/done/promises-transform-callback.md
 recipes/unfinished/promises-how-to-cache-data.md
 recipes/unfinished/promises-wait-for-several-events.md
 
@@ -59,7 +59,7 @@ recipes/parts/3rd-party.md
 recipes/unfinished/3rd-party-chosen.md
 
 recipes/parts/big-picture.md
-recipes/big-picture-spreading-route-definitions.md
+recipes/done/big-picture-spreading-route-definitions.md
 recipes/unfinished/big-picture-angularjs-coffeescript.md
 recipes/unfinished/big-picture-clean-up-with-scope-destroy.md
 recipes/unfinished/big-picture-desktop-like-applications.md
