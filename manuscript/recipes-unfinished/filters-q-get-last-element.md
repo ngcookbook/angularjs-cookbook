@@ -1,8 +1,9 @@
 # TODO: Get last element(s) in a collection (quick)
 
+## Problem
 
 
-
+## Solution
 
 ~~~
 $scope.items = [{ id: 1, name: 'First'  },
@@ -15,4 +16,6 @@ $scope.items = [{ id: 1, name: 'First'  },
 
 %% http://stackoverflow.com/questions/11943130/angularjs-limitto-by-last-2-records
 
+~~~
 <div ng-repeat="item in items | limitTo:-2">
+~~~

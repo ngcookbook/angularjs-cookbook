@@ -10,22 +10,34 @@ recipes-done/directives-select-multiple.md
 recipes-done/directives-stop-nested-click-events-quickie.md
 recipes-done/directives-syntax-highlighter.md
 recipes-done/directives-theme-support.md
-recipes-unfinished/directives-analog-clock.md
+recipes-unfinished/directives-3rd-party-chosen.md
+recipes-unfinished/directives-age-validator.md
 recipes-unfinished/directives-birthdate-select.md
 recipes-unfinished/directives-create-svg-on-the-fly.md
+recipes-unfinished/directives-digital-clock.md
 recipes-unfinished/directives-drag-and-drop.md
+recipes-unfinished/directives-dynamic-template-url.md
+recipes-unfinished/directives-focus-and-right-timing.md
 recipes-unfinished/directives-initialized-data-on-startup.md
 recipes-unfinished/directives-make-a-sortable-table.md
 recipes-unfinished/directives-markdown-live-preview.md
+recipes-unfinished/directives-ng-repeat-tricks.md
+recipes-unfinished/directives-pass-a-funtion.md
+recipes-unfinished/directives-progress-bar.md
+recipes-unfinished/directives-q-compile.md
+recipes-unfinished/directives-q-disable-trimming.md
 recipes-unfinished/directives-q-how-to-write-to-element.md
 recipes-unfinished/directives-q-submit-form-on-enter.md
+recipes-unfinished/directives-q-transclude.md
 recipes-unfinished/directives-select-and-ng-options.md
 recipes-unfinished/directives-uniqueness-validator.md
+recipes-unfinished/directives-view-edit-mode.md
 
 recipes-parts/controllers.md
 recipes-done/controllers-all-none-invert.md
 recipes-done/controllers-form-reset.md
 recipes-unfinished/controllers-communication.md
+recipes-unfinished/controllers-q-filters.md
 recipes-unfinished/controllers-q-multiple-watcher-syntax.md
 
 recipes-parts/services.md
@@ -34,43 +46,55 @@ recipes-unfinished/services-dialog.md
 recipes-unfinished/services-heavy-computations.md
 recipes-unfinished/services-how-to-structure.md
 recipes-unfinished/services-local-storage.md
+recipes-unfinished/services-q-current-app-name.md
 recipes-unfinished/services-q-http-global-timeout.md
+recipes-unfinished/services-replace-history-path.md
 recipes-unfinished/services-shortcuts.md
 
 recipes-parts/filters.md
 recipes-unfinished/filters-exact-match.md
+recipes-unfinished/filters-filter-by-multiple-fields.md
 recipes-unfinished/filters-q-get-last-element.md
+recipes-unfinished/filters-search-highlight.md
 recipes-unfinished/filters-splitting-comma-separated-strings.md
 recipes-unfinished/filters-the-filter-filter.md
 
 recipes-parts/promises.md
 recipes-done/promises-transform-callback.md
+recipes-unfinished/promises-confirm-box.md
+recipes-unfinished/promises-convert-3rd-party.md
 recipes-unfinished/promises-how-to-cache-data.md
 recipes-unfinished/promises-wait-for-several-events.md
+recipes-unfinished/promises-why-to-use-them.md
 
 recipes-parts/testing.md
+recipes-unfinished/testing-controllers.md
 recipes-unfinished/testing-mock-http-requests.md
 recipes-unfinished/testing-private-service-methods.md
 recipes-unfinished/testing-providers-with-config.md
 recipes-unfinished/testing-simulate-click-events.md
 recipes-unfinished/testing-simulate-key-events.md
 
-recipes-parts/3rd-party.md
-recipes-unfinished/3rd-party-chosen.md
-
 recipes-parts/big-picture.md
 recipes-done/big-picture-q-execute-code-at-startup.md
 recipes-done/big-picture-spreading-route-definitions.md
+recipes-unfinished/big-picture-angular-functions.md
 recipes-unfinished/big-picture-angularjs-coffeescript.md
 recipes-unfinished/big-picture-clean-up-with-scope-destroy.md
+recipes-unfinished/big-picture-debug-scopes.md
 recipes-unfinished/big-picture-desktop-like-applications.md
+recipes-unfinished/big-picture-extra-js-files.md
 recipes-unfinished/big-picture-finding-performance-bottlenecks.md
+recipes-unfinished/big-picture-handle-exceptions.md
 recipes-unfinished/big-picture-internet-explorer.md
 recipes-unfinished/big-picture-javascript-es5.md
 recipes-unfinished/big-picture-manage-dependencies.md
+recipes-unfinished/big-picture-ng-model-controller.md
 recipes-unfinished/big-picture-prefill-template-cache.md
 recipes-unfinished/big-picture-regular-urls-without-hash.md
+recipes-unfinished/big-picture-report-backend-error.md
 recipes-unfinished/big-picture-router-functions-and-wildcards.md
 recipes-unfinished/big-picture-save-apply.md
+recipes-unfinished/big-picture-use-the-dot-correctly.md
 recipes-unfinished/big-picture-use-the-scope-right.md
 

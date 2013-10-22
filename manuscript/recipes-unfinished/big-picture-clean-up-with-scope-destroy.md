@@ -1,5 +1,13 @@
 # TODO: Clean up with the scope destroy event
 
+## Problem
+
+## Solution
+
+
+
+
+
 %% http://odetocode.com/blogs/scott/archive/2013/07/16/angularjs-listening-for-destroy.aspx
 %% http://stackoverflow.com/questions/14522426/destroy-directive-child-scope-on-scope-destroy
 

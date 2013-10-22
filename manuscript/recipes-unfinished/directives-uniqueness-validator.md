@@ -5,3 +5,5 @@
 How to write a custom Validator (Uniqueness)
 
 ## Solution
+
+%% http://stackoverflow.com/questions/17011288/angularjs-initial-form-validation-with-directives

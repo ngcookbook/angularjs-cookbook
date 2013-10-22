@@ -1,5 +1,8 @@
-# Focus an element and the right timing
+# TODO: Focus an element and the right timing
 
+## Problem
+
+## Solution
 
 * wait till view is loaded
 

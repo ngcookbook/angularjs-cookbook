@@ -1,4 +1,4 @@
-# Prevent event propagation from ng-click [quickie]
+# Prevent event propagation from ng-click (quickie)
 
 ## Problem
 
@@ -36,4 +36,4 @@ You can of course use `$event` directly inside the `ng-click` definition.
 ~~~
 
 
-%% [TODO] Get X/Y coordinates with ng-click (http://stackoverflow.com/questions/16163978/get-the-this-in-angularjs)
+%% TODO: Get X/Y coordinates with ng-click (http://stackoverflow.com/questions/16163978/get-the-this-in-angularjs)

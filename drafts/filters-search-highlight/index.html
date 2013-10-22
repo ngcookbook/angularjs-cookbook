@@ -1,0 +1,17 @@
+<html ng-app="cookbookApp">
+<head>
+    <title>AngularJS Cookbook</title>
+    <script src="../vendor/angular.js"></script>
+    <script src="../vendor/angular-sanitize.js"></script>
+    <script src="application.js"></script>
+    <link rel="stylesheet" ng-href="style.css"/>
+</head>
+<body ng-controller="MainController">
+
+    <input ng-model="search" placeholder="Search" />
+    <ul>
+        <li ng-repeat="item in items | filter:search" ng-bind-html="item | highlight:search"></li>
+    </ul>
+
+</body>
+</html>

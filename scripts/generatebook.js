@@ -3,7 +3,7 @@ var book = fs.createWriteStream('Book.txt');
 var finished = 0, unfinished = 0, quickies = 0;
 
 var parts = ['mainmatter', 'directives', 'controllers', 'services',
-            'filters', 'promises', 'testing', '3rd-party', 'big-picture'];
+            'filters', 'promises', 'testing', 'big-picture'];
 
 book.write('introduction.md\n\n');
 
