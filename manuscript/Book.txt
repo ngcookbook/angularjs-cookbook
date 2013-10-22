@@ -59,11 +59,11 @@ recipes/parts/3rd-party.md
 recipes/unfinished/3rd-party-chosen.md
 
 recipes/parts/big-picture.md
+recipes/done/big-picture-q-execute-code-at-startup.md
 recipes/done/big-picture-spreading-route-definitions.md
 recipes/unfinished/big-picture-angularjs-coffeescript.md
 recipes/unfinished/big-picture-clean-up-with-scope-destroy.md
 recipes/unfinished/big-picture-desktop-like-applications.md
-recipes/unfinished/big-picture-execute-code-at-startup.md
 recipes/unfinished/big-picture-finding-performance-bottlenecks.md
 recipes/unfinished/big-picture-internet-explorer.md
 recipes/unfinished/big-picture-javascript-es5.md
