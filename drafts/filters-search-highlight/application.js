@@ -1,11 +1,11 @@
 angular.module('cookbookApp', ['ngSanitize'])
     .filter('highlight', function() {
         return function (input, search) {
-            if (search) {
-                var searchRegExp = new RegExp('('+ search + ')', 'g');
-                return input.replace(searchRegExp, '<span class="highlight">$1</span>');
-            } else {
+            if (search === '') {
                 return input;
+            } else {
+                var searchRegExp = new RegExp('('+ search + ')', 'gi');
+                return input.replace(searchRegExp, '<span class="highlight">$1</span>');
             }
         };
     })

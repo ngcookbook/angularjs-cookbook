@@ -4,8 +4,11 @@ recipes-parts/mainmatter.md
 
 recipes-parts/directives.md
 recipes-done/directives-change-the-curly-braces-syntax.md
+recipes-done/directives-compile.md
+recipes-done/directives-digital-clock.md
 recipes-done/directives-dynamic-service-loading.md
 recipes-done/directives-ng-view-slide-animation.md
+recipes-done/directives-q-disable-trimming.md
 recipes-done/directives-select-multiple.md
 recipes-done/directives-stop-nested-click-events-quickie.md
 recipes-done/directives-syntax-highlighter.md
@@ -14,7 +17,6 @@ recipes-unfinished/directives-3rd-party-chosen.md
 recipes-unfinished/directives-age-validator.md
 recipes-unfinished/directives-birthdate-select.md
 recipes-unfinished/directives-create-svg-on-the-fly.md
-recipes-unfinished/directives-digital-clock.md
 recipes-unfinished/directives-drag-and-drop.md
 recipes-unfinished/directives-dynamic-template-url.md
 recipes-unfinished/directives-focus-and-right-timing.md
@@ -23,31 +25,30 @@ recipes-unfinished/directives-make-a-sortable-table.md
 recipes-unfinished/directives-markdown-live-preview.md
 recipes-unfinished/directives-ng-repeat-tricks.md
 recipes-unfinished/directives-pass-a-funtion.md
-recipes-unfinished/directives-progress-bar.md
-recipes-unfinished/directives-q-compile.md
-recipes-unfinished/directives-q-disable-trimming.md
 recipes-unfinished/directives-q-how-to-write-to-element.md
 recipes-unfinished/directives-q-submit-form-on-enter.md
 recipes-unfinished/directives-q-transclude.md
 recipes-unfinished/directives-select-and-ng-options.md
+recipes-unfinished/directives-stacked-bar-chart.md
 recipes-unfinished/directives-uniqueness-validator.md
 recipes-unfinished/directives-view-edit-mode.md
 
 recipes-parts/controllers.md
 recipes-done/controllers-all-none-invert.md
 recipes-done/controllers-form-reset.md
+recipes-done/controllers-q-filters.md
+recipes-done/controllers-q-multiple-watcher-syntax.md
 recipes-unfinished/controllers-communication.md
-recipes-unfinished/controllers-q-filters.md
-recipes-unfinished/controllers-q-multiple-watcher-syntax.md
 
 recipes-parts/services.md
+recipes-done/services-http-global-timeout.md
 recipes-done/services-notifications.md
 recipes-unfinished/services-dialog.md
 recipes-unfinished/services-heavy-computations.md
 recipes-unfinished/services-how-to-structure.md
 recipes-unfinished/services-local-storage.md
+recipes-unfinished/services-provider-at-the-end.md
 recipes-unfinished/services-q-current-app-name.md
-recipes-unfinished/services-q-http-global-timeout.md
 recipes-unfinished/services-replace-history-path.md
 recipes-unfinished/services-shortcuts.md
 

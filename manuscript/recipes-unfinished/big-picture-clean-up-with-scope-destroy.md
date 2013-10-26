@@ -1,6 +1,8 @@
-# TODO: Clean up with the scope destroy event
+# Clean up tasks and resources before a scope is removed
 
 ## Problem
+
+You
 
 ## Solution
 

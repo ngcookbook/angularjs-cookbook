@@ -16,6 +16,9 @@ Here are both variants with factory and anonymous function:
 
 ~~~
 angular.module('cookbookApp')
+    .config(function($httpProvider) {
+        $httpProvider.interceptors.push('timeoutHttpInterceptor');
+    })
     .factory('timeoutHttpInterceptor', function ($q) {
         return {
             'request': function(config) {
@@ -24,20 +27,23 @@ angular.module('cookbookApp')
             }
         };
     });
-$httpProvider.interceptors.push('timeoutHttpInterceptor');
 ~~~
 
 ~~~
-$httpProvider.interceptors.push(function($q) {
-    return {
-        'request': function(config) {
-            config.timeout = 8000;
-            return config || $q.when(config);
-        }
-    },
-});
+angular.module('cookbookApp')
+    .config(function($httpProvider) {
+        $httpProvider.interceptors.push(function($q) {
+            return {
+                'request': function(config) {
+                    config.timeout = 8000;
+                    return config || $q.when(config);
+                }
+            },
+        });
+    });
 ~~~
 
 
 %% http://stackoverflow.com/questions/15015416/how-to-set-a-global-http-timeout-in-angularjs
 %% Caching a http request (http://stackoverflow.com/questions/15402867/angularjs-caching-a-rest-request)
+%% http://docs.angularjs.org/api/ng.$http

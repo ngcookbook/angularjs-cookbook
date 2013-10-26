@@ -7,6 +7,14 @@ You want to highlight a search string in your ng-repeat.
 
 ## Solution
 
-%% http://stackoverflow.com/questions/17430172/angularjs-filter-and-bold-part-of-the-result
 
-Quellcode vorhanden
+ <<(code/directives-select-multiple/index.html)
+
+ <<(code/directives-select-multiple/application.js)
+
+
+
+For the styling we add a `.highlight` class which highlight the part in red.
+
+ <<(code/directives-select-multiple/style.css)
+

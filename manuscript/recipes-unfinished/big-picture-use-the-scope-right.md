@@ -2,6 +2,7 @@
 
 ## Problem
 
+Your app gets slower and slower or you're wondering when to place variables and functions on the scope.
 
 ## Solution
 

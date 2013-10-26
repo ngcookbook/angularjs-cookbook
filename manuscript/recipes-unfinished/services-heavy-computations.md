@@ -2,8 +2,7 @@
 
 ## Problem
 
-You have an operation which takes some time. Your app is sluggish oder the tab kills itsself.
-
+You have an operation which takes some time. Your app is sluggish oder the tab kills itself.
 
 ## Solution
 

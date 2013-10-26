@@ -1,4 +1,4 @@
-# TODO: Manage frontend dependencies
+# TODO: Manage frontend dependencies with Bower
 
 ## Problem
 

@@ -8,4 +8,4 @@ all. Here we show an easy way how to do it.
 
 ## Solution
 
-%% Promise: $.when (computed or fetch) (http://stackoverflow.com/questions/16770821/how-does-angular-q-when-work)
+%% Promise: $.when (computed or fetch) http://stackoverflow.com/questions/16770821/how-does-angular-q-when-work
