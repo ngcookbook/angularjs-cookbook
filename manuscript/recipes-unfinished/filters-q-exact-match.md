@@ -1,4 +1,4 @@
-# TODO: Filter an exact match
+# Filter an exact match (quick)
 
 ## Problem
 

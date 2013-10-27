@@ -2,8 +2,33 @@
 
 # Introduction
 
-This is an example chapter of a Leanpub book.  To start your book, simply replace the content of this file with your writing, and then go to your book page on Leanpub and click on the Preview tab to make a preview of your book.
+# About the author
 
-Briefly, to write a Leanpub book, you write a bunch of plain text files, all in the same folder as this file.  These text files are written in a format called Markdown, which is a simple way of doing formatting that lets you focus on your writing.
 
-To learn more about how to write a Leanpub book, see our helpful [help page](http://leanpub.com/help).  This page has lots of examples, as well as links to sample books and videos.
+# What makes a good recipe book
+
+
+Brevity / Minimalism. I assume the if you read this book it's because of one of the following reasons:
+
+* Learn new tricks:
+  * documentation means nothing
+  * one function description but not how to use them
+
+* Snippets
+  * You've done it before. But some code has always a tricky part which consumes a lot of time. You don't want to
+  invest it again.
+
+* Learn more about Angular
+  * Some recipes are short and are in the documentation. You could use / learn it from the documentation. But a lot
+  of people don't use these things. They're things ask over and over.
+
+
+
+
+
+
+
+
+
+
+
