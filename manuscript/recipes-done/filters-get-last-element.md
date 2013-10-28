@@ -11,6 +11,6 @@ the last one. `limitTo:-1` would only output the last element.
 
 A working example:
 
-<<(code/filters-q-get-last-element/index.html)
+<<(code/filters-get-last-element/index.html)
 
-<<(code/filters-q-get-last-element/application.js)
+<<(code/filters-get-last-element/application.js)

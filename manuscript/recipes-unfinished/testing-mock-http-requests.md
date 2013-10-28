@@ -8,3 +8,4 @@ You want to test your service which itself uses $http. You want to isolate your 
 ## Solution
 
 
+It's possible to also test multiple http requests.

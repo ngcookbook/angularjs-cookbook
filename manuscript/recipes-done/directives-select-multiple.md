@@ -13,6 +13,6 @@ type.
 The binding here is also bidirectional. Below is an example how to use it. As you can see,
 you can set initial values just by declaring an array.
 
- <<(code/directives-select-multiple/index.html)
+<<(code/directives-select-multiple/index.html)
 
- <<(code/directives-select-multiple/application.js)
+<<(code/directives-select-multiple/application.js)

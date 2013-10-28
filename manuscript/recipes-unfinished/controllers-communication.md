@@ -7,6 +7,9 @@ You have two controller which are not nested but you want to exchange data betwe
 
 ## Solution
 
+
+use function!
+
 %% http://egghead.io/lessons/angularjs-sharing-data-between-controllers
 
 

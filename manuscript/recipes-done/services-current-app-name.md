@@ -12,9 +12,9 @@ the `ng-app` attr. Works with multiple apps on a page.
 
 Working version:
 
-<<(code/services-q-current-app-name/index.html)
+<<(code/services-current-app-name/index.html)
 
-<<(code/services-q-current-app-name/application.js)
+<<(code/services-current-app-name/application.js)
 
 
 

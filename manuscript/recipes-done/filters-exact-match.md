@@ -19,9 +19,9 @@ When we set a third parameter to true we get exact matching, e.g. `... | filter:
 
 Here's a complete example:
 
-<<(code/filters-q-exact-match/index.html)
+<<(code/filters-exact-match/index.html)
 
-<<(code/filters-q-exact-match/application.js)
+<<(code/filters-exact-match/application.js)
 
 
 
