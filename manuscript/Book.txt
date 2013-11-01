@@ -15,6 +15,7 @@ recipes-done/directives-stacked-bar-chart.md
 recipes-done/directives-stop-nested-click-events-quickie.md
 recipes-done/directives-syntax-highlighter.md
 recipes-done/directives-theme-support.md
+recipes-done/directives-transclude.md
 recipes-done/directives-view-edit-mode.md
 recipes-unfinished/directives-3rd-party-chosen.md
 recipes-unfinished/directives-age-validator.md
@@ -23,14 +24,13 @@ recipes-unfinished/directives-create-svg-on-the-fly.md
 recipes-unfinished/directives-drag-and-drop.md
 recipes-unfinished/directives-dynamic-template-url.md
 recipes-unfinished/directives-focus-and-right-timing.md
-recipes-unfinished/directives-make-a-sortable-table.md
 recipes-unfinished/directives-markdown-live-preview.md
 recipes-unfinished/directives-ng-repeat-tricks.md
 recipes-unfinished/directives-pass-a-function.md
 recipes-unfinished/directives-q-how-to-write-to-element.md
 recipes-unfinished/directives-q-submit-form-on-enter.md
-recipes-unfinished/directives-q-transclude.md
 recipes-unfinished/directives-select-and-ng-options.md
+recipes-unfinished/directives-sortable-table.md
 recipes-unfinished/directives-uniqueness-validator.md
 
 recipes-parts/controllers.md
@@ -65,7 +65,7 @@ recipes-done/promises-transform-callback.md
 recipes-unfinished/promises-confirm-box.md
 recipes-unfinished/promises-convert-3rd-party.md
 recipes-unfinished/promises-how-to-cache-data.md
-recipes-unfinished/promises-wait-for-several-events.md
+recipes-unfinished/promises-start-events-in-parallel.md
 recipes-unfinished/promises-why-to-use-them.md
 
 recipes-parts/testing.md
@@ -76,6 +76,7 @@ recipes-unfinished/testing-private-service-methods.md
 recipes-unfinished/testing-providers-with-config.md
 recipes-unfinished/testing-simulate-click-events.md
 recipes-unfinished/testing-simulate-key-events.md
+recipes-unfinished/testing-subset-of-tests.md
 
 recipes-parts/big-picture.md
 recipes-done/big-picture-clean-up-with-scope-destroy.md

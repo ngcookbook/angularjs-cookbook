@@ -1,0 +1,20 @@
+<html ng-app="cookbookApp">
+<head>
+    <title>AngularJS Cookbook</title>
+    <script src="../vendor/angular.js"></script>
+    <script src="application.js"></script>
+</head>
+<body ng-controller="MainController">
+
+    <fieldset>
+        <legend>Promise</legend>
+        <button ng-click="resolve()">Resolve</button>
+        <button ng-click="reject()">Reject</button>{{resultOne}}
+    </fieldset>
+
+    <fieldset>
+        <legend>Promise All</legend>{{resultAll}}
+    </fieldset>
+
+</body>
+</html>

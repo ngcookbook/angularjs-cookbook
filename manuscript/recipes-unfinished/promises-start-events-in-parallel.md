@@ -3,8 +3,7 @@
 ## Problem
 
 You have several async events, e.g. calls to serveral external apis. You cannot work if one failed,
-so you have to wait for them
-all. Here we show an easy way how to do it.
+so you have to wait for them all. Here we show an easy way how to do it.
 
 
 ## Solution

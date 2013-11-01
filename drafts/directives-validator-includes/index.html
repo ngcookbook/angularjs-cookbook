@@ -1,0 +1,19 @@
+<html ng-app="cookbookApp">
+<head>
+    <title>AngularJS Cookbook</title>
+    <script src="../vendor/angular.js"></script>
+    <script src="application.js"></script>
+    <link rel="stylesheet" ng-href="style.css"/>
+</head>
+<body ng-controller="MainController">
+
+    <form name="form" novalidate>
+        <input type="text" name="includes" ng-model="includes" includes="allowedValues" />
+    </form>
+
+    <div ng-show="form.includes.$dirty">
+        <span ng-show="form.includes.$error.includes">This value is not allowed. Try hello or bye.</span>
+    </div>
+
+</body>
+</html>
