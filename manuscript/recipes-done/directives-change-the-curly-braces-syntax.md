@@ -5,6 +5,7 @@
 You want to change the double curly braces `{{` from AngularJS because they're conflicting with your template engine
 on the backend.
 
+
 ## Solution
 
 You can indeed change the curly braces to e.g. `[[`. In AngularJS the `$interpolate` provider does the template

@@ -4,6 +4,7 @@
 
 You start your not so small app and while AngularJS is booting up, your whole screen is crowded mit curly braces.
 
+
 ## Solution
 
 First the why. This situation can appear when open your `index.html`. The browser has to download all the javascript

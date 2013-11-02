@@ -10,13 +10,11 @@ The solution is to activate and use transclusion. You activate transclusion in y
  true` in your returning object. Now AngularJS captures what was inside of your directive. You can then use the
  contents with `<div ng-transclude></div>` which is replaced with the captured content.
 
-~~~~~~~~
-.directive('...', function() {
-    return {
-        transclude: true,
-        template: '<div id="wrapper"><div ng-transclude></div></div>'
-    }
-});
-~~~~~~~~
+    .directive('...', function() {
+        return {
+            transclude: true,
+            template: '<div id="wrapper"><div ng-transclude></div></div>'
+        }
+    });
 
 %% TODO: Discuss what transclusion is doing. Why it is such a big thing.

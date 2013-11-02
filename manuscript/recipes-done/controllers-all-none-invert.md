@@ -4,6 +4,7 @@
 
 You have a list of check boxes. You want to give the user an easy way to select all, none or invert the states. Buttons for these options should be disabled if not possible.
 
+
 ## Solution
 
 For this example we create an array of objects. An object consists of a boolean field `completed` which represents

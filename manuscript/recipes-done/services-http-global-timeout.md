@@ -4,6 +4,7 @@
 
 You want to increase the timeout of your `$http` service globally.
 
+
 ## Solution
 
 The `$http` has a concept called interceptors. With interceptors you can modify the passed config object before it is
@@ -14,39 +15,38 @@ You call the request interceptor with a http config object. You can now modify i
 
 Here are both variants with factory and anonymous function:
 
-~~~~~~~~
-angular.module('cookbookApp')
-    .config(function($httpProvider) {
-        $httpProvider.interceptors.push('timeoutHttpInterceptor');
-    })
-    .factory('timeoutHttpInterceptor', function ($q) {
-        return {
-            'request': function(config) {
-                config.timeout = 8000;
-                return config || $q.when(config);
-            }
-        };
-    });
-~~~~~~~~
+### Factory
 
-~~~~~~~~
-angular.module('cookbookApp')
-    .config(function($httpProvider) {
-        $httpProvider.interceptors.push(function($q) {
+    angular.module('cookbookApp')
+        .config(function($httpProvider) {
+            $httpProvider.interceptors.push('timeoutHttpInterceptor');
+        })
+        .factory('timeoutHttpInterceptor', function ($q) {
             return {
                 'request': function(config) {
                     config.timeout = 8000;
                     return config || $q.when(config);
                 }
-            },
+            };
         });
-    });
-~~~~~~~~
+
+
+### Anonymous function
+
+    angular.module('cookbookApp')
+        .config(function($httpProvider) {
+            $httpProvider.interceptors.push(function($q) {
+                return {
+                    'request': function(config) {
+                        config.timeout = 8000;
+                        return config || $q.when(config);
+                    }
+                },
+            });
+        });
 
 
 %% TODO Reference to big-picture-report-backend-errors
-
-
 %% http://stackoverflow.com/questions/15015416/how-to-set-a-global-http-timeout-in-angularjs
 %% Caching a http request (http://stackoverflow.com/questions/15402867/angularjs-caching-a-rest-request)
 %% http://docs.angularjs.org/api/ng.$http

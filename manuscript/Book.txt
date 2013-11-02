@@ -9,6 +9,7 @@ recipes-done/directives-digital-clock.md
 recipes-done/directives-disable-save-button.md
 recipes-done/directives-disable-trimming.md
 recipes-done/directives-dynamic-service-loading.md
+recipes-done/directives-dynamic-template-url.md
 recipes-done/directives-initialized-data-on-startup.md
 recipes-done/directives-ng-view-slide-animation.md
 recipes-done/directives-select-multiple.md
@@ -22,7 +23,6 @@ recipes-unfinished/directives-3rd-party-chosen.md
 recipes-unfinished/directives-birthdate-select.md
 recipes-unfinished/directives-create-svg-on-the-fly.md
 recipes-unfinished/directives-drag-and-drop.md
-recipes-unfinished/directives-dynamic-template-url.md
 recipes-unfinished/directives-focus-and-right-timing.md
 recipes-unfinished/directives-markdown-live-preview.md
 recipes-unfinished/directives-ng-repeat-tricks.md
@@ -37,9 +37,9 @@ recipes-unfinished/directives-validator-uniqueness.md
 
 recipes-parts/controllers.md
 recipes-done/controllers-all-none-invert.md
+recipes-done/controllers-filters.md
 recipes-done/controllers-form-reset.md
-recipes-done/controllers-q-filters.md
-recipes-done/controllers-q-multiple-watcher-syntax.md
+recipes-done/controllers-multiple-watcher-syntax.md
 recipes-unfinished/controllers-communication.md
 
 recipes-parts/services.md
@@ -82,9 +82,10 @@ recipes-unfinished/testing-simulate-key-events.md
 recipes-parts/big-picture.md
 recipes-done/big-picture-angular-extra-js-files.md
 recipes-done/big-picture-clean-up-with-scope-destroy.md
-recipes-done/big-picture-q-execute-code-at-startup.md
+recipes-done/big-picture-execute-code-at-startup.md
 recipes-done/big-picture-report-backend-errors.md
 recipes-done/big-picture-spreading-route-definitions.md
+recipes-done/big-picture-use-the-scope-right.md
 recipes-unfinished/big-picture-angular-functions.md
 recipes-unfinished/big-picture-angularjs-coffeescript.md
 recipes-unfinished/big-picture-debug-scopes.md
@@ -100,5 +101,4 @@ recipes-unfinished/big-picture-regular-urls-without-hash.md
 recipes-unfinished/big-picture-router-functions-and-wildcards.md
 recipes-unfinished/big-picture-save-apply.md
 recipes-unfinished/big-picture-use-the-dot-correctly.md
-recipes-unfinished/big-picture-use-the-scope-right.md
 

@@ -10,6 +10,4 @@ You need the data from a textarea as is is on saving without the automatic trimm
 AngularJS makes good assumptions as default. For example automatic trimming. If you don't want it,
 you can disable it with:
 
-~~~~~~~~
-<textarea ng-model="bio" ng-trim="false"></textarea>
-~~~~~~~~
+    <textarea ng-model="bio" ng-trim="false"></textarea>

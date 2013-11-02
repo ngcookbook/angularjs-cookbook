@@ -4,6 +4,7 @@
 
 You have a form and want to reset it to the initial state.
 
+
 ## Solution
 
 We have to save the initial form state ourselves. We do this by creating a new variable `var initialFormData;` and

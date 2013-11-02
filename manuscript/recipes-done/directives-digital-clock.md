@@ -4,6 +4,7 @@
 
 You want to create a directive which shows the current time.
 
+
 ## Solution
 
 The solution is a little directive with a timer. For displaying the date we use the date filter which does the

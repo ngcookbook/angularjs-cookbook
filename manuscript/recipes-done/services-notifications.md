@@ -17,7 +17,9 @@ inside the array because of the dynamic nature of the list. So we use a global c
 incremented by one with every added notification.
 
 <<(code/services-notifications/application.js)
+
 <<(code/services-notifications/index.html)
+
 <<(code/services-notifications/style.css)
 
 ## Discussion

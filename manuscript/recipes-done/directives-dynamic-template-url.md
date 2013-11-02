@@ -4,6 +4,7 @@
 
 You have several html templates which you want to use dynamically inside your directive.
 
+
 ## Solution
 
 Inside a directive `templateUrl` cannot only take a string but also a function. the function has the element and the

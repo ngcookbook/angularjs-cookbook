@@ -5,6 +5,7 @@
 You want to localize a string in your controller. Because there's no extra service for this,
 you can you use the date filter.
 
+
 ## Solution
 
 You can just inject the `$filter` service and use the view filter. You call the filter with the name of the filter
