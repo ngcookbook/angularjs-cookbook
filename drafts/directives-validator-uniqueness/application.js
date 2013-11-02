@@ -1,5 +1,5 @@
 angular.module('cookbookApp', [])
-    .directive('uniqueLogin', function ($http) {
+    .directive('unique', function () {
         return {
             require:'ngModel',
             link:function (scope, element, attrs, ngModelCtrl) {
@@ -9,10 +9,9 @@ angular.module('cookbookApp', [])
                     return modelValue;
                 });
                 ngModelCtrl.$parsers.push(function (value) {
-                    if (value && value !== original ) {
-                        $http.get('users.json').then(function(usersResponse) {
-                            var loginFound = usersResponse.data.filter(function(user){ return user.login === value; }).length;
-                            ngModelCtrl.$setValidity('unique', !loginFound);
+                    if (value && value !== original) {
+                        scope[attrs.unique](value).then(function(result) {
+                            ngModelCtrl.$setValidity('unique', result);
                         });
                         return value;
                     }
@@ -20,5 +19,13 @@ angular.module('cookbookApp', [])
             }
         };
     })
+    .controller('MainController', function($scope, $http) {
+        $scope.checkUniqueLogin = function(value) {
+            return $http.get('users.json').then(function(usersResponse) {
+                return !usersResponse.data.filter(function(user){ return user.login === value; }).length;
+            });
+        };
+    });
+
 
 

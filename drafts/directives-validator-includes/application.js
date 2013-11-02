@@ -1,5 +1,5 @@
 angular.module('cookbookApp', [])
-    .directive('includes', function ($http, $parse) {
+    .directive('includes', function ($parse) {
         return {
             require:'ngModel',
             link:function (scope, element, attrs, ngModelCtrl) {

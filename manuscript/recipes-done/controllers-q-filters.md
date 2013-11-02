@@ -13,6 +13,4 @@ options, they are the following parameters.
 
 Example:
 
-~~~
-$filter('date')(input, options)
-~~~
+    $filter('date')(input, options)

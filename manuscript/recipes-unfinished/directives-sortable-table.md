@@ -1,4 +1,4 @@
-# Make a sortable table
+# TODO: Make a sortable table
 
 ## Problem
 
@@ -6,8 +6,6 @@ You want to make your table sortable. The element in the header which the table 
 click again on the active element the sort order is reversed.
 
 ## Solution
-
-
 
 
 <<(code/directives-sortable-table/index.html)

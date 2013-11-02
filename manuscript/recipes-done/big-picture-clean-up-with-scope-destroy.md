@@ -13,33 +13,29 @@ To give an example we look at the following controller. The controller continuou
 intervals. This timer would also continue to go on after we removed the controller if we don't remove it manually.
 With every instance of a new controller we would create a new timer which will run forever.
 
-~~~
-.controller('DateController', function($scope, $timeout) {
-    function updateDate() {
-        $scope.now = new Date();
+    .controller('DateController', function($scope, $timeout) {
+        function updateDate() {
+            $scope.now = new Date();
+            $timeout(updateDate, 1000);
+        };
         $timeout(updateDate, 1000);
-    };
-    $timeout(updateDate, 1000);
-});
-~~~
+    });
 
 To prevent this, we listen for the `$destroy` event to stop the timeout loop. To do this we need to get a reference
 to the `$timeout`. That way we can cancel the timer on the `$destory` event like shown here:
 
-~~~
-.controller('DateController', function($scope, $timeout) {
-    var dateTimer;
-    function updateDate() {
-        $scope.now = new Date();
-        timer = $timeout(updateDate, 1000);
-    };
-    dateTimer = $timeout(updateDate, 1000);
+    .controller('DateController', function($scope, $timeout) {
+        var dateTimer;
+        function updateDate() {
+            $scope.now = new Date();
+            timer = $timeout(updateDate, 1000);
+        };
+        dateTimer = $timeout(updateDate, 1000);
 
-    $scope.$on('$destroy', function() {
-        if (dateTimer) { $timeout.cancel(dateTimer); }
+        $scope.$on('$destroy', function() {
+            if (dateTimer) { $timeout.cancel(dateTimer); }
+        });
     });
-});
-~~~
 
 
 %% http://odetocode.com/blogs/scott/archive/2013/07/16/angularjs-listening-for-destroy.aspx

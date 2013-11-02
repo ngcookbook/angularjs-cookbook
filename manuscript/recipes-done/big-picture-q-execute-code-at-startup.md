@@ -9,12 +9,10 @@ tied to any view.
 
 You can use the `run` method. This method is invoked when the injector loaded all modules.
 
-~~~
-angular.module('myApp',[])
-    .run(function()
-        // Your code here
-    });
-~~~
+    angular.module('myApp',[])
+        .run(function()
+            // Your code here
+        });
 
 
 

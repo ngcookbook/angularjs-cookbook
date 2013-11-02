@@ -14,7 +14,7 @@ You call the request interceptor with a http config object. You can now modify i
 
 Here are both variants with factory and anonymous function:
 
-~~~
+~~~~~~~~
 angular.module('cookbookApp')
     .config(function($httpProvider) {
         $httpProvider.interceptors.push('timeoutHttpInterceptor');
@@ -27,9 +27,9 @@ angular.module('cookbookApp')
             }
         };
     });
-~~~
+~~~~~~~~
 
-~~~
+~~~~~~~~
 angular.module('cookbookApp')
     .config(function($httpProvider) {
         $httpProvider.interceptors.push(function($q) {
@@ -41,7 +41,7 @@ angular.module('cookbookApp')
             },
         });
     });
-~~~
+~~~~~~~~
 
 
 %% TODO Reference to big-picture-report-backend-errors

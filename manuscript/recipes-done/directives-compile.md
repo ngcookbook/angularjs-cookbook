@@ -14,14 +14,16 @@ injecting the `$compile` service. You can use `$compile` with either a `string` 
 returning a linking function which is called with a scope. This again returns an element which the can be inserted into the DOM.
 
 *With a string:*
-~~~
+
+~~~~~~~~
 newElement = $compile(myString)(scope)
-~~~
+~~~~~~~~
 
 *With an element:*
-~~~
+
+~~~~~~~~
 newElement = $compile(angular.element)(scope)
-~~~
+~~~~~~~~
 
 Returns an `angular.element`, **not a string**!
 
@@ -32,8 +34,8 @@ Usually you would use `$compile` inside a link function of a directive and there
 reason you use it somewhere else. E.g. inside a service, you could of pass the scope to the function from outside. If
  you just need a scope, you can also just use the root scope. Inject `$rootScope` and you're ready to go.
 
-~~~
+~~~~~~~~
 newElement = $compile(myString)($rootScope)
-~~~
+~~~~~~~~
 
 %% http://www.phase2technology.com/blog/angularjs-and-compile

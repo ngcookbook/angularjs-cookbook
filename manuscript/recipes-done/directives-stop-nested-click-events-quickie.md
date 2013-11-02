@@ -14,26 +14,26 @@ and thus you can use `stopPropagation()` to prevent the bubbling of events.
 You pass `$event` as parameter of the topmost `ng-click` and call `$event.stopPropagation()` in the function
 declaration inside of the controller.
 
-~~~
+~~~~~~~~
 <div ng-click="back()">
     ...
     <a ng-click="front($event)">Click me!</a>
     ...
 </div>
-~~~
+~~~~~~~~
 
 
 #### Alternative solution
 
 You can of course use `$event` directly inside the `ng-click` definition.
 
-~~~
+~~~~~~~~
 <div ng-click="back()">
     ...
     <a ng-click="front(); $event.stopPropagation()">Click me!</a>
     ...
 </div>
-~~~
+~~~~~~~~
 
 
 %% TODO: Get X/Y coordinates with ng-click http://stackoverflow.com/questions/16163978/get-the-this-in-angularjs

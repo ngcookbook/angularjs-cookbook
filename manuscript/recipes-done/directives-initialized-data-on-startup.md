@@ -17,11 +17,9 @@ To prevent this you can use 2 directives: `ng-cloak` and `ng-bind`.
 `ng-cloak` is a directive which removes itself when the application is initialized. If used with the following CSS,
 all elements are hidden during the initialization process.
 
-~~~
-[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
-  display: none !important;
-}
-~~~
+    [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+      display: none !important;
+    }
 
 ### ng-bind
 
@@ -29,16 +27,19 @@ If you don't want to hide some elements completely because then the layout is br
 you can also use `ng-bind`. `ng-bind` is similar to `{{}}` but replaces everything which is inside the tag where it
 is defined. If you would use curly braces and define a counter like this:
 
-~~~
-<span>{{counter}}</span>
-~~~
+    <span>{{counter}}</span>
 
 You could also rewrite it with `ng-bind` to:
 
-~~~
-<span ng-bind="counter">?</span>
-~~~
+    <span ng-bind="counter">?</span>
 
 This has the advantage that a question mark is displayed as long the app isn't fully initialized. When the app is
 ready the question mark is replaced with the real data.
+
+## ng-bind-template
+
+If you want to use `ng-bind` but have more than one expression, you can use `ng-bind-template`. It's like `ng-bind`
+but can contain multiple expressions.
+
+    <span ng-bind-template="{{hello}} {{world}}">?</span>
 

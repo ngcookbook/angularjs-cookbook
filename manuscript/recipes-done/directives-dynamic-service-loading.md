@@ -12,12 +12,13 @@ you trigger the injection process manually. To do this, you use the `$injector` 
 
 In this example we create a directive with the following attributes:
 
-* model: Translates to ng-model in the select field
-* resource: The service name and the function of the service you want to use separated by a dot.
-* resource-id: The key in the returning object you want to use as options value.
-* resource-label: The key in the returning object you want to use as options label.
+* *model:* Translates to ng-model in the select field
+* *resource:* The service name and the function of the service you want to use separated by a dot.
+* *resource-id:* The key in the returning object you want to use as options value.
+* *resource-label:* The key in the returning object you want to use as options label.
 
-`<dynamic-select model="personId" resource="People.getList" resource-id="id" resource-label="name" />`
+    <dynamic-select model="personId" resource="People.getList"
+                    resource-id="id" resource-label="name" />
 
 The directive with looks like this:
 

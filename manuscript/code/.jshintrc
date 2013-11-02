@@ -20,6 +20,7 @@
     "trailing": true,
     "smarttabs": true,
     "globals": {
+        "$": false,
         "angular": false,
         "afterEach": false,
         "beforeEach": false,
@@ -34,11 +35,9 @@
         "spyOn": false,
         "spyOnEvent": false,
         "waitsFor": false,
-        "xdescribe": false,
         "jQuery": false,
-        "KeyEvent": false,
         "alert": false,
-        "$": false,
-        "Prism": false
+        "Prism": false,
+        "Showdown": false
     }
 }

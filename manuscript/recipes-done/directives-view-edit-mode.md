@@ -1,4 +1,4 @@
-# TODO: How to switch input field between view / edit mode
+# How to switch input field between view / edit mode
 
 ## Problem
 

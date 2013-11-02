@@ -8,19 +8,20 @@ to chain them like in [How to wait for several async events] or want to have an 
 
 %% TODO: Insert link
 
+
 ## Solution
 
 As an example we use the camera feature of phonegap. The original definition looks like this:
 
-~~~
+~~~~~~~~
 navigator.camera.getPicture(cameraSuccess, cameraError, [ cameraOptions ]);
-~~~
+~~~~~~~~
 
 As an promise we want sth. like this:
 
-~~~
+~~~~~~~~
 phonegapCamera.getPicture([ cameraOptions ]).then(success, failure);
-~~~
+~~~~~~~~
 
 The necessary steps are:
 
@@ -33,7 +34,7 @@ The necessary steps are:
 
 Result:
 
-~~~~~~~~~~~~
+~~~~~~~~
 function getPicture(options) {
     var deferred = $q.defer()
 
@@ -49,14 +50,13 @@ function getPicture(options) {
 
     return deferred.promise;
 }
-~~~~~~~~~~~~
+~~~~~~~~
 
 
 Because we can pass functions as arguments and callback and resolve/reject take both exactly one parameter,
 we can also write a much simpler version (complete example):
 
-
-~~~~~~~~~~~~
+~~~~~~~~
 app.factory('phonegapCamera', function($q) {
     function getPicture(options) {
         var deferred = $q.defer()
@@ -68,7 +68,7 @@ app.factory('phonegapCamera', function($q) {
         getPicture: getPicture
     }
 }
-~~~~~~~~~~~~
+~~~~~~~~
 
 Unfamilar with the declaration used in the factory? Learn more here:
 

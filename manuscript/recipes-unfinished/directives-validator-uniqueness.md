@@ -1,16 +1,17 @@
-# TODO: Uniqueness validator as example for a custom validator
+# General purpose uniqueness validator
 
 ## Problem
 
-How to write a custom Validator (Uniqueness)
+You want to check if the input in an form field is unique, e.g. a login box.
 
 ## Solution
 
+<<(code/directives-validator-uniqueness/index.html)
+
+<<(code/directives-validator-uniqueness/application.js)
+
+<<(code/directives-validator-uniqueness/users.json)
+
+<<(code/directives-validator-uniqueness/style.css)
 
 
-
-
-
-
-%% http://stackoverflow.com/questions/17011288/angularjs-initial-form-validation-with-directives
-%% S238(249)

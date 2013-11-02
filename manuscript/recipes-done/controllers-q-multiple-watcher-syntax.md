@@ -12,15 +12,13 @@ AngularJS has a not so obvious solution for it. You can specify multiple watcher
 
 Here's the code:
 
-~~~
-$scope.$watch('[first, second, third]', function(newArray, oldArray){
-    console.log(newArray[0]); // new value of first
-    console.log(oldArray[0]); // old value of first
+    $scope.$watch('[first, second, third]', function(newArray, oldArray){
+        console.log(newArray[0]); // new value of first
+        console.log(oldArray[0]); // old value of first
 
-    console.log(newArray[1]); // new value of second
-    console.log(oldArray[1]); // old value of second
+        console.log(newArray[1]); // new value of second
+        console.log(oldArray[1]); // old value of second
 
-    console.log(newArray[2]); // new value of third
-    console.log(oldArray[2]); // old value of third
-},true);
-~~~
+        console.log(newArray[2]); // new value of third
+        console.log(oldArray[2]); // old value of third
+    },true);

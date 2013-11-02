@@ -7,12 +7,12 @@ angular.module('cookbookApp', ['ngRoute', 'ngAnimate'])
     })
     .controller('MainController', function($scope, $location) {
         $scope.moveLeft = function(href) {
-            $scope.reverse = 'left';
+            $scope.direction = 'left';
             $location.path(href);
         };
 
         $scope.moveRight = function(href) {
-            $scope.reverse = 'right';
+            $scope.direction = 'right';
             $location.path(href);
         };
     });
