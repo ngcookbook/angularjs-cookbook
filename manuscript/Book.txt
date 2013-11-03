@@ -14,6 +14,7 @@ recipes-done/directives-initialized-data-on-startup.md
 recipes-done/directives-markdown-live-preview.md
 recipes-done/directives-ng-view-slide-animation.md
 recipes-done/directives-select-multiple.md
+recipes-done/directives-select-ng-options.md
 recipes-done/directives-stacked-bar-chart.md
 recipes-done/directives-stop-nested-click-events.md
 recipes-done/directives-submit-form-on-enter.md
@@ -27,7 +28,6 @@ recipes-unfinished/directives-create-svg-on-the-fly.md
 recipes-unfinished/directives-focus-and-right-timing.md
 recipes-unfinished/directives-ng-repeat-tricks.md
 recipes-unfinished/directives-pass-a-function.md
-recipes-unfinished/directives-select-ng-options.md
 recipes-unfinished/directives-sortable-table.md
 recipes-unfinished/directives-textarea-char-limit.md
 recipes-unfinished/directives-validator-includes.md

@@ -46,7 +46,7 @@
 
     <p>label for (key , value) in object: {{obj1}}</p>
 
-    <select ng-model="obj1" ng-options="roleId for (roleId, roleObj) in roles"></select><br>
+    <select ng-model="obj1" ng-options="roleObj.name for (roleId, roleObj) in roles"></select><br>
 
     <p>select as label for (key , value) in object: {{obj2}}</p>
 
