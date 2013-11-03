@@ -9,7 +9,8 @@ so you have to wait for them all. Here we show an easy way how to do it.
 ## Solution
 
 
-
+With callbacks it's hard to start several asynchronous task at once and synchronize the results later. With promises
+it is really easy.
 
 
 %% Promise: $.when (computed or fetch) http://stackoverflow.com/questions/16770821/how-does-angular-q-when-work

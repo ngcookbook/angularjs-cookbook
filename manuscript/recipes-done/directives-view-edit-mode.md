@@ -1,4 +1,4 @@
-# How to switch input field between view / edit mode
+# Forms with view / edit mode
 
 ## Problem
 

@@ -7,4 +7,4 @@ the `&` in the isolated scope definition is doing.
 
 ## Solution
 
-* How to pass a function to (&)
+This is a basic but we repeat it here, because it is so often misunderstood.

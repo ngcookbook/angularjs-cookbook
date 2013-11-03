@@ -1,4 +1,4 @@
-# TODO: Access index in ng-repeat
+# TODO: Access the index in ng-repeat and prevent duplicate warnings
 
 ## Problem
 

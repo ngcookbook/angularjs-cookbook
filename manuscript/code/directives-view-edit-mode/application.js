@@ -3,9 +3,13 @@ angular.module('cookbookApp', [])
         return function(scope, element) {
             scope.$watch('editMode', function() {
                 if (scope.editMode) {
-                    element.removeClass('viewable').addClass('editable').removeAttr('disabled');
+                    element.removeClass('viewable')
+                           .addClass('editable')
+                           .removeAttr('disabled');
                 } else {
-                    element.removeClass('editable').addClass('viewable').attr('disabled','disabled');
+                    element.removeClass('editable')
+                           .addClass('viewable')
+                           .attr('disabled','disabled');
                 }
             });
         };

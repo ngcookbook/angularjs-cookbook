@@ -67,3 +67,4 @@ Handles touch events in AngularJS. Implements Fast click.
 The core of AngularJS. You have to include this.
 
 %% TODO: rework of documentation
+%% http://docs.angularjs.org/api overview
