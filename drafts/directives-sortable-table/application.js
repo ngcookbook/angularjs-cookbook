@@ -8,7 +8,10 @@ angular.module('cookbookApp', [])
                 sort: '=thSortable',
                 column: '@thColumn'
             },
-            controller: function($scope) {
+            controller: function($scope, $attrs) {
+                $scope.sort = $scope.sort || {};
+                $scope.sort.column = angular.isDefined($attrs.thColumn) ? $scope.column : $scope.sort.column;
+
                 $scope.changeColumn = function() {
                     if ($scope.sort.column === $scope.column) {
                         $scope.sort.reverse = !$scope.sort.reverse;
@@ -20,7 +23,6 @@ angular.module('cookbookApp', [])
         };
     })
    .controller('MainController', function($scope, $http) {
-        $scope.sort = { column: 'name' };
         $http.get('users.json').then(function(peopleResponse) {
             $scope.users = peopleResponse.data;
         });

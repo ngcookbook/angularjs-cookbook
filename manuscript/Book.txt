@@ -1,27 +1,39 @@
 introduction.md
-
 recipes-parts/mainmatter.md
 
 recipes-parts/directives.md
 recipes-done/directives-change-the-curly-braces-syntax.md
 recipes-done/directives-compile.md
 recipes-done/directives-digital-clock.md
+recipes-parts/code/directives-digital-clock-code.md
 recipes-done/directives-disable-save-button.md
+recipes-parts/code/directives-disable-save-button-code.md
 recipes-done/directives-disable-trimming.md
 recipes-done/directives-dynamic-service-loading.md
+recipes-parts/code/directives-dynamic-service-loading-code.md
 recipes-done/directives-dynamic-template-url.md
+recipes-parts/code/directives-dynamic-template-url-code.md
 recipes-done/directives-initialized-data-on-startup.md
 recipes-done/directives-markdown-live-preview.md
+recipes-parts/code/directives-markdown-live-preview-code.md
 recipes-done/directives-ng-view-slide-animation.md
+recipes-parts/code/directives-ng-view-slide-animation-code.md
 recipes-done/directives-select-multiple.md
+recipes-parts/code/directives-select-multiple-code.md
 recipes-done/directives-select-ng-options.md
+recipes-parts/code/directives-select-ng-options-code.md
 recipes-done/directives-stacked-bar-chart.md
+recipes-parts/code/directives-stacked-bar-chart-code.md
 recipes-done/directives-stop-nested-click-events.md
 recipes-done/directives-submit-form-on-enter.md
+recipes-parts/code/directives-submit-form-on-enter-code.md
 recipes-done/directives-syntax-highlighter.md
+recipes-parts/code/directives-syntax-highlighter-code.md
 recipes-done/directives-theme-support.md
+recipes-parts/code/directives-theme-support-code.md
 recipes-done/directives-transclude.md
 recipes-done/directives-view-edit-mode.md
+recipes-parts/code/directives-view-edit-mode-code.md
 recipes-unfinished/directives-3rd-party-chosen.md
 recipes-unfinished/directives-birthdate-select.md
 recipes-unfinished/directives-create-svg-on-the-fly.md
@@ -37,13 +49,16 @@ recipes-parts/controllers.md
 recipes-done/controllers-all-none-invert.md
 recipes-done/controllers-filters.md
 recipes-done/controllers-form-reset.md
+recipes-parts/code/controllers-form-reset-code.md
 recipes-done/controllers-multiple-watcher-syntax.md
 recipes-unfinished/controllers-communication.md
 
 recipes-parts/services.md
 recipes-done/services-current-app-name.md
+recipes-parts/code/services-current-app-name-code.md
 recipes-done/services-http-global-timeout.md
 recipes-done/services-notifications.md
+recipes-parts/code/services-notifications-code.md
 recipes-unfinished/services-dialog.md
 recipes-unfinished/services-heavy-computations.md
 recipes-unfinished/services-how-to-structure.md
@@ -54,8 +69,11 @@ recipes-unfinished/services-shortcuts.md
 
 recipes-parts/filters.md
 recipes-done/filters-exact-match.md
+recipes-parts/code/filters-exact-match-code.md
 recipes-done/filters-get-last-element.md
+recipes-parts/code/filters-get-last-element-code.md
 recipes-done/filters-search-highlight.md
+recipes-parts/code/filters-search-highlight-code.md
 recipes-unfinished/filters-filter-by-multiple-fields.md
 recipes-unfinished/filters-the-filter-filter.md
 
@@ -82,6 +100,7 @@ recipes-done/big-picture-angular-extra-js-files.md
 recipes-done/big-picture-clean-up-with-scope-destroy.md
 recipes-done/big-picture-execute-code-at-startup.md
 recipes-done/big-picture-report-backend-errors.md
+recipes-parts/code/big-picture-report-backend-errors-code.md
 recipes-done/big-picture-spreading-route-definitions.md
 recipes-done/big-picture-use-the-scope-right.md
 recipes-unfinished/big-picture-angular-functions.md

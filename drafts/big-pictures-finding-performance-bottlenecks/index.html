@@ -1,0 +1,17 @@
+<html ng-app="cookbookApp">
+<head>
+    <title>AngularJS Cookbook</title>
+    <script src="../vendor/angular.js"></script>
+    <script src="application.js"></script>
+</head>
+<body ng-controller="MainController">
+
+
+<ul>
+    <li ng-repeat="item in items">{{item}}</li>
+</ul>
+
+<button ng-click="sortItems()">Sort</button>
+
+</body>
+</html>
