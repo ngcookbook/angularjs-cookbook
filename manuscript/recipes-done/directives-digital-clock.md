@@ -18,3 +18,4 @@ been updated on the scope. The second is to remove the timer when the directive 
 <<(code/directives-digital-clock/index.html)
 
 
+%% TODO: use $interval http://docs.angularjs.org/api/ng.$interval

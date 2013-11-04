@@ -9,3 +9,12 @@ You want to use AngularJS with CoffeeScript but have problems with access to ser
 
 
 
+    class Ping
+      constructor: (@$http)->
+      send: ()=>
+        @$http.get('/ping')
+
+    $provide.service('ping', ['$http', Ping])
+
+
+http://docs.angularjs.org/api/AUTO.$provide#methods_service
