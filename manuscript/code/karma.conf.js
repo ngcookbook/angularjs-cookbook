@@ -10,7 +10,12 @@ module.exports = function (config) {
         frameworks: ['jasmine'],
 
         // list of files / patterns to load in the browser
-        files: ['test/**/*.spec.js'],
+        files: [
+            'vendor/angular.js',
+            'vendor/angular-mocks.js',
+            'testing-*/*.js',
+            'testing-*/test/*.js'
+        ],
 
         // list of files to exclude
         exclude: [],
