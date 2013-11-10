@@ -1,4 +1,4 @@
-# TODO: How to cache data with promises
+# How to cache data with promises
 
 ## Problem
 
