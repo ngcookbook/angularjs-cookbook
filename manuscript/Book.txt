@@ -106,6 +106,7 @@ recipes-done/big-picture-angular-extra-js-files.md
 recipes-done/big-picture-clean-up-with-scope-destroy.md
 recipes-done/big-picture-debug-scopes.md
 recipes-done/big-picture-execute-code-at-startup.md
+recipes-done/big-picture-regular-urls-without-hash.md
 recipes-done/big-picture-report-backend-errors.md
 parts/code/big-picture-report-backend-errors-code.md
 recipes-done/big-picture-save-apply.md
@@ -120,7 +121,6 @@ recipes-unfinished/big-picture-handle-exceptions.md
 recipes-unfinished/big-picture-manage-dependencies-bower.md
 recipes-unfinished/big-picture-ng-model-controller.md
 recipes-unfinished/big-picture-prefill-template-cache.md
-recipes-unfinished/big-picture-regular-urls-without-hash.md
 recipes-unfinished/big-picture-router-functions-and-wildcards.md
 recipes-unfinished/big-picture-use-the-dot-correctly.md
 
