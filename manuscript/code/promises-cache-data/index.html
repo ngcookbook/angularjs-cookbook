@@ -1,0 +1,13 @@
+<html ng-app="cookbookApp">
+<head>
+    <title>AngularJS Cookbook</title>
+    <script src="../vendor/angular.js"></script>
+    <script src="application.js"></script>
+</head>
+<body ng-controller="MainController">
+    <ul>
+        <li ng-repeat="user in users" ng-bind="user"></li>
+    </ul>
+    <button ng-click="loadUsers()">Load users</button>
+</body>
+</html>

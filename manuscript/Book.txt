@@ -86,8 +86,9 @@ parts/promises.md
 recipes-done/promises-start-events-in-parallel.md
 parts/code/promises-start-events-in-parallel-code.md
 recipes-done/promises-transform-callback.md
+recipes-unfinished/promises-cache-data.md
+parts/code/promises-cache-data-code.md
 recipes-unfinished/promises-convert-3rd-party.md
-recipes-unfinished/promises-how-to-cache-data.md
 recipes-unfinished/promises-why-to-use-them.md
 
 parts/testing.md
