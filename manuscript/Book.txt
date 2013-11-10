@@ -35,10 +35,13 @@ parts/code/directives-syntax-highlighter-code.md
 recipes-done/directives-theme-support.md
 parts/code/directives-theme-support-code.md
 recipes-done/directives-transclude.md
+recipes-done/directives-validator-uniqueness.md
+parts/code/directives-validator-uniqueness-code.md
 recipes-done/directives-view-edit-mode.md
 parts/code/directives-view-edit-mode-code.md
 recipes-unfinished/directives-3rd-party-chosen.md
 recipes-unfinished/directives-birthdate-select.md
+recipes-unfinished/directives-confirm-box.md
 recipes-unfinished/directives-create-svg-on-the-fly.md
 recipes-unfinished/directives-focus-and-right-timing.md
 recipes-unfinished/directives-ng-repeat-tricks.md
@@ -46,7 +49,6 @@ recipes-unfinished/directives-pass-a-function.md
 recipes-unfinished/directives-sortable-table.md
 recipes-unfinished/directives-textarea-char-limit.md
 recipes-unfinished/directives-validator-includes.md
-recipes-unfinished/directives-validator-uniqueness.md
 
 parts/controllers.md
 recipes-done/controllers-all-none-invert.md
@@ -62,12 +64,12 @@ parts/code/services-current-app-name-code.md
 recipes-done/services-http-global-timeout.md
 recipes-done/services-notifications.md
 parts/code/services-notifications-code.md
+recipes-done/services-replace-history-path.md
 recipes-unfinished/services-dialog.md
 recipes-unfinished/services-heavy-computations.md
 recipes-unfinished/services-how-to-structure.md
 recipes-unfinished/services-local-storage.md
 recipes-unfinished/services-provider-at-the-end.md
-recipes-unfinished/services-replace-history-path.md
 recipes-unfinished/services-shortcuts.md
 
 parts/filters.md
@@ -81,17 +83,18 @@ recipes-unfinished/filters-filter-by-multiple-fields.md
 recipes-unfinished/filters-the-filter-filter.md
 
 parts/promises.md
+recipes-done/promises-start-events-in-parallel.md
+parts/code/promises-start-events-in-parallel-code.md
 recipes-done/promises-transform-callback.md
-recipes-unfinished/promises-confirm-box.md
 recipes-unfinished/promises-convert-3rd-party.md
 recipes-unfinished/promises-how-to-cache-data.md
-recipes-unfinished/promises-start-events-in-parallel.md
 recipes-unfinished/promises-why-to-use-them.md
 
 parts/testing.md
+recipes-done/testing-focus-in-directive.md
+parts/code/testing-focus-in-directive-code.md
 recipes-done/testing-subset-of-tests.md
 recipes-unfinished/testing-controllers.md
-recipes-unfinished/testing-focus-in-directive.md
 recipes-unfinished/testing-mock-http-requests.md
 recipes-unfinished/testing-private-service-methods.md
 recipes-unfinished/testing-providers-with-config.md
@@ -101,14 +104,15 @@ recipes-unfinished/testing-simulate-key-events.md
 parts/big-picture.md
 recipes-done/big-picture-angular-extra-js-files.md
 recipes-done/big-picture-clean-up-with-scope-destroy.md
+recipes-done/big-picture-debug-scopes.md
 recipes-done/big-picture-execute-code-at-startup.md
 recipes-done/big-picture-report-backend-errors.md
 parts/code/big-picture-report-backend-errors-code.md
+recipes-done/big-picture-save-apply.md
 recipes-done/big-picture-spreading-route-definitions.md
 recipes-done/big-picture-use-the-scope-right.md
 recipes-unfinished/big-picture-angular-functions.md
 recipes-unfinished/big-picture-angularjs-coffeescript.md
-recipes-unfinished/big-picture-debug-scopes.md
 recipes-unfinished/big-picture-desktop-like-applications.md
 recipes-unfinished/big-picture-es5-array-functions.md
 recipes-unfinished/big-picture-finding-performance-bottlenecks.md
@@ -118,6 +122,5 @@ recipes-unfinished/big-picture-ng-model-controller.md
 recipes-unfinished/big-picture-prefill-template-cache.md
 recipes-unfinished/big-picture-regular-urls-without-hash.md
 recipes-unfinished/big-picture-router-functions-and-wildcards.md
-recipes-unfinished/big-picture-save-apply.md
 recipes-unfinished/big-picture-use-the-dot-correctly.md
 
