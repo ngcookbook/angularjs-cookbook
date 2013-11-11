@@ -83,11 +83,11 @@ recipes-unfinished/filters-filter-by-multiple-fields.md
 recipes-unfinished/filters-the-filter-filter.md
 
 parts/promises.md
+recipes-done/promises-cache-data.md
+parts/code/promises-cache-data-code.md
 recipes-done/promises-start-events-in-parallel.md
 parts/code/promises-start-events-in-parallel-code.md
 recipes-done/promises-transform-callback.md
-recipes-unfinished/promises-cache-data.md
-parts/code/promises-cache-data-code.md
 recipes-unfinished/promises-convert-3rd-party.md
 recipes-unfinished/promises-why-to-use-them.md
 
@@ -106,7 +106,9 @@ parts/big-picture.md
 recipes-done/big-picture-angular-extra-js-files.md
 recipes-done/big-picture-clean-up-with-scope-destroy.md
 recipes-done/big-picture-debug-scopes.md
+recipes-done/big-picture-es5-array-functions.md
 recipes-done/big-picture-execute-code-at-startup.md
+recipes-done/big-picture-finding-performance-bottlenecks.md
 recipes-done/big-picture-regular-urls-without-hash.md
 recipes-done/big-picture-report-backend-errors.md
 parts/code/big-picture-report-backend-errors-code.md
@@ -116,8 +118,6 @@ recipes-done/big-picture-use-the-scope-right.md
 recipes-unfinished/big-picture-angular-functions.md
 recipes-unfinished/big-picture-angularjs-coffeescript.md
 recipes-unfinished/big-picture-desktop-like-applications.md
-recipes-unfinished/big-picture-es5-array-functions.md
-recipes-unfinished/big-picture-finding-performance-bottlenecks.md
 recipes-unfinished/big-picture-handle-exceptions.md
 recipes-unfinished/big-picture-manage-dependencies-bower.md
 recipes-unfinished/big-picture-ng-model-controller.md

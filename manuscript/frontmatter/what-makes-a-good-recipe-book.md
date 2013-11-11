@@ -1,19 +1,13 @@
-## What makes a good recipe book
+## Is this book for you
 
-Brevity / Minimalism. I assume the if you read this book it's because of one of the following reasons:
+If you’re reading this book, I would assume that it would be because of one of the following reasons:
 
-* Learn new tricks:
-  * documentation means nothing
-  * one function description but not how to use them
+* You want to learn new tricks. You may have realized that documentation doesn’t contain all necessary info or you may know one function description but don’t know yet how to use them.
+* You've may have already done this before but there are always those pesky tricky parts of a code that consumes a lot of your time. You want to avoid wasting your time with those again, which is what you’re wanting this book to do for you.
+* You want to learn more about Angular. Some recipes are short and only a rewrite of the documentation with the ‘why’. You could use / learn it from the documentation. But this is not only ‘how’, but ‘where’ and ‘why’. These are usually things which we were asked over and over again.
+* You are looking for solutions you can trust. All code examples are as brief / minimalistic as they could be. Usually, it sells to have a nice interface. But if you’re looking for a solution, you would want to first figure out what solves your problem and differentiate that from what is just there for stylistic purposes.
 
-* Snippets
-  * You've done it before. But some code has always a tricky part which consumes a lot of time. You don't want to
-  invest it again.
-
-* Learn more about Angular
-  * Some recipes are short and are in the documentation. You could use / learn it from the documentation. But a lot
-  of people don't use these things. They're things ask over and over.
-
+If you are reading this book because of those reasons, then you have made the right move. Angular JS Cookbook with give you solutions that work to save you time and effort, it will give you some new recipes that you wwould find very useful and, overall, it will make your life easier.
 
 --------------
 

@@ -3,14 +3,12 @@
     <title>AngularJS Cookbook</title>
     <script src="../vendor/angular.js"></script>
     <script src="application.js"></script>
-    <link rel="stylesheet" ng-href="style.css"/>
 </head>
 <body ng-controller="MainController">
 
-    <dateselect model="current"></dateselect>
-    <br/>
-    <dateselect model="current"></dateselect>
+    <dateselect model="current"></dateselect><br/>
+    <dateselect model="current"></dateselect><br/>
 
-    {{current}}
+    {{current | date:'yyyy-MM-dd'}}
 </body>
 </html>
