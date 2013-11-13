@@ -30,6 +30,8 @@ parts/code/directives-stacked-bar-chart-code.md
 recipes-done/directives-stop-nested-click-events.md
 recipes-done/directives-submit-form-on-enter.md
 parts/code/directives-submit-form-on-enter-code.md
+recipes-done/directives-svg-clock.md
+parts/code/directives-svg-clock-code.md
 recipes-done/directives-syntax-highlighter.md
 parts/code/directives-syntax-highlighter-code.md
 recipes-done/directives-theme-support.md
@@ -39,15 +41,13 @@ recipes-done/directives-validator-uniqueness.md
 parts/code/directives-validator-uniqueness-code.md
 recipes-done/directives-view-edit-mode.md
 parts/code/directives-view-edit-mode-code.md
-recipes-unfinished/directives-3rd-party-chosen.md
 recipes-unfinished/directives-birthdate-select.md
 recipes-unfinished/directives-confirm-box.md
-recipes-unfinished/directives-create-svg-on-the-fly.md
 recipes-unfinished/directives-focus-and-right-timing.md
 recipes-unfinished/directives-ng-repeat-tricks.md
 recipes-unfinished/directives-pass-a-function.md
 recipes-unfinished/directives-sortable-table.md
-recipes-unfinished/directives-textarea-char-limit.md
+recipes-unfinished/directives-textarea-maxlength-counter.md
 recipes-unfinished/directives-validator-includes.md
 
 parts/controllers.md
@@ -64,12 +64,12 @@ parts/code/services-current-app-name-code.md
 recipes-done/services-http-global-timeout.md
 recipes-done/services-notifications.md
 parts/code/services-notifications-code.md
+recipes-done/services-provider-at-the-end.md
 recipes-done/services-replace-history-path.md
 recipes-unfinished/services-dialog.md
 recipes-unfinished/services-heavy-computations.md
 recipes-unfinished/services-how-to-structure.md
 recipes-unfinished/services-local-storage.md
-recipes-unfinished/services-provider-at-the-end.md
 recipes-unfinished/services-shortcuts.md
 
 parts/filters.md
