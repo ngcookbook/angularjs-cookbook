@@ -25,6 +25,8 @@ recipes-done/directives-select-multiple.md
 parts/code/directives-select-multiple-code.md
 recipes-done/directives-select-ng-options.md
 parts/code/directives-select-ng-options-code.md
+recipes-done/directives-sortable-table.md
+parts/code/directives-sortable-table-code.md
 recipes-done/directives-stacked-bar-chart.md
 parts/code/directives-stacked-bar-chart-code.md
 recipes-done/directives-stop-nested-click-events.md
@@ -46,7 +48,6 @@ recipes-unfinished/directives-confirm-box.md
 recipes-unfinished/directives-focus-and-right-timing.md
 recipes-unfinished/directives-ng-repeat-tricks.md
 recipes-unfinished/directives-pass-a-function.md
-recipes-unfinished/directives-sortable-table.md
 recipes-unfinished/directives-textarea-maxlength-counter.md
 recipes-unfinished/directives-validator-includes.md
 
@@ -114,6 +115,8 @@ recipes-done/big-picture-report-backend-errors.md
 parts/code/big-picture-report-backend-errors-code.md
 recipes-done/big-picture-save-apply.md
 recipes-done/big-picture-spreading-route-definitions.md
+recipes-done/big-picture-use-the-dot-correctly.md
+parts/code/big-picture-use-the-dot-correctly-code.md
 recipes-done/big-picture-use-the-scope-right.md
 recipes-unfinished/big-picture-angular-functions.md
 recipes-unfinished/big-picture-angularjs-coffeescript.md
@@ -123,5 +126,4 @@ recipes-unfinished/big-picture-manage-dependencies-bower.md
 recipes-unfinished/big-picture-ng-model-controller.md
 recipes-unfinished/big-picture-prefill-template-cache.md
 recipes-unfinished/big-picture-router-functions-and-wildcards.md
-recipes-unfinished/big-picture-use-the-dot-correctly.md
 

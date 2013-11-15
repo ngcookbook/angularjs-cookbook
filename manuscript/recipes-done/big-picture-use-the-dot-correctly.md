@@ -48,5 +48,4 @@ latter, JavaScript goes the prototype chain up, looks for an occurence and write
 
 <<(code/big-picture-use-the-dot-correctly/index.html)
 
-
 %% How to use the dot on the scope correctly (http://stackoverflow.com/questions/14049480/what-are-the-nuances-of-scope-prototypal-* prototypical-inheritance-in-angularjs/14049482#14049482)

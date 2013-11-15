@@ -5,9 +5,7 @@
     <script src="application.js"></script>
 </head>
 <body>
-
     <h2>With dot</h2>
-
     <div ng-controller="ParentController">
         Parent: <input type="text" ng-model="person.name" placeholder="person.name">
 
@@ -17,7 +15,6 @@
     </div>
 
     <h2>Without dot</h2>
-
     <div ng-controller="ParentController">
         Parent: <input type="text" ng-model="name" placeholder="name">
 
@@ -27,7 +24,6 @@
     </div>
 
     <h2>Without dot (workaround)</h2>
-
     <div ng-controller="ParentController">
         Parent: <input type="text" ng-model="name" placeholder="name">
 
@@ -35,6 +31,5 @@
             Child: <input type="text" ng-model="$parent.name" placeholder="$parent.name">
         </div>
     </div>
-
 </body>
 </html>
