@@ -2,7 +2,7 @@ angular.module('cookbookApp', [])
     .directive('thSortable', function() {
         return {
             transclude: true,
-            template: '<a href ng-click="changeColumn()" ng-class="{active: sort.column == column}">' +
+            template: '<a href ng-click="changeColumn()" ng-class="{active: sort.column == column, asc: !sort.reverse, desc: sort.reverse}">' +
                 '<span ng-transclude></span></a>',
             scope : {
                 sort: '=thSortable',
@@ -10,7 +10,11 @@ angular.module('cookbookApp', [])
             },
             controller: function($scope, $attrs) {
                 $scope.sort = $scope.sort || {};
-                $scope.sort.column = angular.isDefined($attrs.thColumn) ? $scope.column : $scope.sort.column;
+
+                if (angular.isDefined($attrs.thDefault)) {
+                    $scope.sort.column = 'name';
+                }
+//                $scope.sort.column = angular.isDefined($attrs.thDefault) ? $scope.column : $scope.sort.column;
 
                 $scope.changeColumn = function() {
                     if ($scope.sort.column === $scope.column) {
