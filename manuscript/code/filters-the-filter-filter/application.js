@@ -7,10 +7,4 @@ angular.module('cookbookApp', [])
         $scope.underForty = function (user) {
             return user.age < 40;
         };
-
     });
-
-
-
-
-

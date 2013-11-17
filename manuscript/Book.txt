@@ -80,8 +80,9 @@ recipes-done/filters-get-last-element.md
 parts/code/filters-get-last-element-code.md
 recipes-done/filters-search-highlight.md
 parts/code/filters-search-highlight-code.md
+recipes-done/filters-the-filter-filter.md
+parts/code/filters-the-filter-filter-code.md
 recipes-unfinished/filters-filter-by-multiple-fields.md
-recipes-unfinished/filters-the-filter-filter.md
 
 parts/promises.md
 recipes-done/promises-cache-data.md
