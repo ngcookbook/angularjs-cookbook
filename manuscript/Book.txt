@@ -5,6 +5,8 @@ frontmatter/about-the-author.md
 parts/mainmatter.md
 
 parts/directives.md
+recipes-done/directives-birthdate-select.md
+parts/code/directives-birthdate-select-code.md
 recipes-done/directives-change-the-curly-braces-syntax.md
 recipes-done/directives-compile.md
 recipes-done/directives-digital-clock.md
@@ -43,7 +45,6 @@ recipes-done/directives-validator-uniqueness.md
 parts/code/directives-validator-uniqueness-code.md
 recipes-done/directives-view-edit-mode.md
 parts/code/directives-view-edit-mode-code.md
-recipes-unfinished/directives-birthdate-select.md
 recipes-unfinished/directives-confirm-box.md
 recipes-unfinished/directives-focus-and-right-timing.md
 recipes-unfinished/directives-ng-repeat-tricks.md
@@ -53,11 +54,12 @@ recipes-unfinished/directives-validator-includes.md
 
 parts/controllers.md
 recipes-done/controllers-all-none-invert.md
+recipes-done/controllers-communication.md
+parts/code/controllers-communication-code.md
 recipes-done/controllers-filters.md
 recipes-done/controllers-form-reset.md
 parts/code/controllers-form-reset-code.md
 recipes-done/controllers-multiple-watcher-syntax.md
-recipes-unfinished/controllers-communication.md
 
 parts/services.md
 recipes-done/services-current-app-name.md
@@ -111,6 +113,7 @@ recipes-done/big-picture-debug-scopes.md
 recipes-done/big-picture-es5-array-functions.md
 recipes-done/big-picture-execute-code-at-startup.md
 recipes-done/big-picture-finding-performance-bottlenecks.md
+parts/code/big-picture-finding-performance-bottlenecks-code.md
 recipes-done/big-picture-regular-urls-without-hash.md
 recipes-done/big-picture-report-backend-errors.md
 parts/code/big-picture-report-backend-errors-code.md
