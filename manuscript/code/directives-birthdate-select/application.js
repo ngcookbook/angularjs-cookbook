@@ -3,9 +3,9 @@ angular.module('cookbookApp', [])
         return {
             restrict: 'E',
             template:
-                '<select ng-model="date.month" ng-options="month for month in months" ng-change="changeDate()"></select>' +
-                '<select ng-model="date.day" ng-options="day for day in days" ng-change="changeDate()"></select>' +
-                '<select ng-model="date.year" ng-options="year for year in years" ng-change="changeDate()"></select>',
+                '<select ng-model="date.month" ng-options="month for month in months"></select>' +
+                '<select ng-model="date.day" ng-options="day for day in days"></select>' +
+                '<select ng-model="date.year" ng-options="year for year in years"></select>',
             scope : {
                 model: '='
             },
@@ -14,7 +14,7 @@ angular.module('cookbookApp', [])
                 $scope.date = {};
 
                 $scope.days = [];
-                for (i = 1; i <= 30; i++) { $scope.days.push(i); }
+                for (i = 1; i <= 31; i++) { $scope.days.push(i); }
 
                 $scope.months = [];
                 for (i = 1; i <= 12; i++) { $scope.months.push(i); }
@@ -23,16 +23,16 @@ angular.module('cookbookApp', [])
                 for (i = 1980; i <= (new Date().getFullYear()); i++) { $scope.years.push(i); }
 
                 $scope.$watch('model', function(newDate) {
-                    $scope.date.month = newDate.getMonth() +1;
+                    $scope.date.month = newDate.getMonth()+1;
                     $scope.date.day = newDate.getDate();
                     $scope.date.year = newDate.getFullYear();
                 }, true);
 
-                $scope.changeDate = function() {
-                    $scope.model.setDate($scope.date.day);
-                    $scope.model.setMonth($scope.date.month-1);
-                    $scope.model.setFullYear($scope.date.year);
-                };
+                $scope.$watch('date', function(newDate) {
+                    $scope.model.setDate(newDate.day);
+                    $scope.model.setMonth(newDate.month-1);
+                    $scope.model.setFullYear(newDate.year);
+                }, true);
             }
         };
     })
