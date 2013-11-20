@@ -1,5 +1,5 @@
 angular.module('cookbookApp', [])
-    .directive('includes', function ($parse) {
+    .directive('blacklist', function ($parse) {
         return {
             require:'ngModel',
             link:function (scope, element, attrs, ngModelCtrl) {
@@ -10,16 +10,16 @@ angular.module('cookbookApp', [])
                 });
                 ngModelCtrl.$parsers.push(function (value) {
                     if (value && value !== original ) {
-                        var includesArray = $parse(attrs.includes)(scope) || [];
-                        ngModelCtrl.$setValidity('includes', includesArray.indexOf(value) !== -1);
-                        return value;
+                        var badWords = $parse(attrs.blacklist)(scope) || [];
+                        var containsBadWord = badWords.some(function(str) { return value.indexOf(str) >= 0; });
+                        ngModelCtrl.$setValidity('blacklist', !containsBadWord);
                     }
                 });
             }
         };
     })
     .controller('MainController', function($scope) {
-        $scope.allowedValues = ['hello', 'bye'];
+        $scope.blacklistValues = ['hello', 'bye'];
     });
 
 
