@@ -23,6 +23,7 @@ recipes-done/directives-markdown-live-preview.md
 parts/code/directives-markdown-live-preview-code.md
 recipes-done/directives-ng-view-slide-animation.md
 parts/code/directives-ng-view-slide-animation-code.md
+recipes-done/directives-pass-a-function.md
 recipes-done/directives-select-multiple.md
 parts/code/directives-select-multiple-code.md
 recipes-done/directives-select-ng-options.md
@@ -41,16 +42,17 @@ parts/code/directives-syntax-highlighter-code.md
 recipes-done/directives-theme-support.md
 parts/code/directives-theme-support-code.md
 recipes-done/directives-transclude.md
+recipes-done/directives-validator-blacklist.md
+parts/code/directives-validator-blacklist-code.md
 recipes-done/directives-validator-uniqueness.md
 parts/code/directives-validator-uniqueness-code.md
 recipes-done/directives-view-edit-mode.md
 parts/code/directives-view-edit-mode-code.md
 recipes-unfinished/directives-confirm-box.md
 recipes-unfinished/directives-focus-and-right-timing.md
+recipes-unfinished/directives-ng-repeat-double-rows.md
 recipes-unfinished/directives-ng-repeat-tricks.md
-recipes-unfinished/directives-pass-a-function.md
 recipes-unfinished/directives-textarea-maxlength-counter.md
-recipes-unfinished/directives-validator-includes.md
 
 parts/controllers.md
 recipes-done/controllers-all-none-invert.md
@@ -64,13 +66,14 @@ recipes-done/controllers-multiple-watcher-syntax.md
 parts/services.md
 recipes-done/services-current-app-name.md
 parts/code/services-current-app-name-code.md
+recipes-done/services-heavy-computations.md
+parts/code/services-heavy-computations-code.md
 recipes-done/services-http-global-timeout.md
 recipes-done/services-notifications.md
 parts/code/services-notifications-code.md
 recipes-done/services-provider-at-the-end.md
 recipes-done/services-replace-history-path.md
 recipes-unfinished/services-dialog.md
-recipes-unfinished/services-heavy-computations.md
 recipes-unfinished/services-how-to-structure.md
 recipes-unfinished/services-local-storage.md
 recipes-unfinished/services-shortcuts.md
@@ -84,15 +87,15 @@ recipes-done/filters-search-highlight.md
 parts/code/filters-search-highlight-code.md
 recipes-done/filters-the-filter-filter.md
 parts/code/filters-the-filter-filter-code.md
-recipes-unfinished/filters-filter-by-multiple-fields.md
 
 parts/promises.md
 recipes-done/promises-cache-data.md
 parts/code/promises-cache-data-code.md
+recipes-done/promises-convert-3rd-party.md
+parts/code/promises-convert-3rd-party-code.md
 recipes-done/promises-start-events-in-parallel.md
 parts/code/promises-start-events-in-parallel-code.md
 recipes-done/promises-transform-callback.md
-recipes-unfinished/promises-convert-3rd-party.md
 recipes-unfinished/promises-why-to-use-them.md
 
 parts/testing.md
@@ -125,6 +128,7 @@ recipes-done/big-picture-use-the-scope-right.md
 recipes-unfinished/big-picture-angular-functions.md
 recipes-unfinished/big-picture-angularjs-coffeescript.md
 recipes-unfinished/big-picture-desktop-like-applications.md
+recipes-unfinished/big-picture-gmail-like-page-flipping.md
 recipes-unfinished/big-picture-handle-exceptions.md
 recipes-unfinished/big-picture-manage-dependencies-bower.md
 recipes-unfinished/big-picture-ng-model-controller.md
