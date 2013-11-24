@@ -21,6 +21,8 @@ parts/code/directives-dynamic-template-url-code.md
 recipes-done/directives-initialized-data-on-startup.md
 recipes-done/directives-markdown-live-preview.md
 parts/code/directives-markdown-live-preview-code.md
+recipes-done/directives-ng-repeat-double-rows.md
+parts/code/directives-ng-repeat-double-rows-code.md
 recipes-done/directives-ng-view-slide-animation.md
 parts/code/directives-ng-view-slide-animation-code.md
 recipes-done/directives-pass-a-function.md
@@ -50,7 +52,6 @@ recipes-done/directives-view-edit-mode.md
 parts/code/directives-view-edit-mode-code.md
 recipes-unfinished/directives-confirm-box.md
 recipes-unfinished/directives-focus-and-right-timing.md
-recipes-unfinished/directives-ng-repeat-double-rows.md
 recipes-unfinished/directives-ng-repeat-tricks.md
 recipes-unfinished/directives-textarea-maxlength-counter.md
 
