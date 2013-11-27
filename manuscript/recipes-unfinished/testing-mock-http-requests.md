@@ -1,4 +1,4 @@
-# TODO: How to mock http requests
+# Mocking http requests
 
 ## Problem
 
