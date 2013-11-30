@@ -24,7 +24,7 @@ return a function itself. This function is capable of deregistering the listener
       }
 
 To get this to work, we have to save a reference to our the returned function of `$on`. When we finally want to
-remove the listener, we just have to execute it. 
+remove the listener, we just have to execute it.
 
     var myEventOffFn = $scope.$on("onMyEvent", myListener);
 
