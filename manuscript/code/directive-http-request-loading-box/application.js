@@ -1,5 +1,5 @@
 angular.module('cookbookApp', [])
-    .directive('waitingForRequest', function($http, $interval) {
+    .directive('waitingForRequest', function($http) {
         return {
             restrict: 'E',
             scope: {},

@@ -35,6 +35,7 @@
         "spyOn": false,
         "spyOnEvent": false,
         "waitsFor": false,
+        "$httpBackend": false,
         "jQuery": false,
         "alert": false,
         "Prism": false,

@@ -9,6 +9,8 @@ recipes-done/directives-birthdate-select.md
 parts/code/directives-birthdate-select-code.md
 recipes-done/directives-change-the-curly-braces-syntax.md
 recipes-done/directives-compile.md
+recipes-done/directives-confirm-box.md
+parts/code/directives-confirm-box-code.md
 recipes-done/directives-digital-clock.md
 parts/code/directives-digital-clock-code.md
 recipes-done/directives-disable-save-button.md
@@ -42,6 +44,8 @@ recipes-done/directives-svg-clock.md
 parts/code/directives-svg-clock-code.md
 recipes-done/directives-syntax-highlighter.md
 parts/code/directives-syntax-highlighter-code.md
+recipes-done/directives-textarea-maxlength-counter.md
+parts/code/directives-textarea-maxlength-counter-code.md
 recipes-done/directives-theme-support.md
 parts/code/directives-theme-support-code.md
 recipes-done/directives-transclude.md
@@ -51,9 +55,6 @@ recipes-done/directives-validator-uniqueness.md
 parts/code/directives-validator-uniqueness-code.md
 recipes-done/directives-view-edit-mode.md
 parts/code/directives-view-edit-mode-code.md
-recipes-unfinished/directives-confirm-box.md
-recipes-unfinished/directives-focus-and-right-timing.md
-recipes-unfinished/directives-textarea-maxlength-counter.md
 
 parts/controllers.md
 recipes-done/controllers-all-none-invert.md
@@ -69,13 +70,15 @@ recipes-done/services-current-app-name.md
 parts/code/services-current-app-name-code.md
 recipes-done/services-heavy-computations.md
 parts/code/services-heavy-computations-code.md
+recipes-done/services-how-to-structure.md
+parts/code/services-how-to-structure-code.md
 recipes-done/services-http-global-timeout.md
+recipes-done/services-log-decorator.md
+parts/code/services-log-decorator-code.md
 recipes-done/services-notifications.md
 parts/code/services-notifications-code.md
 recipes-done/services-provider-at-the-end.md
 recipes-done/services-replace-history-path.md
-recipes-unfinished/services-dialog.md
-recipes-unfinished/services-how-to-structure.md
 recipes-unfinished/services-local-storage.md
 recipes-unfinished/services-shortcuts.md
 
@@ -102,9 +105,10 @@ recipes-unfinished/promises-why-to-use-them.md
 parts/testing.md
 recipes-done/testing-focus-in-directive.md
 parts/code/testing-focus-in-directive-code.md
+recipes-done/testing-mock-http-requests.md
+parts/code/testing-mock-http-requests-code.md
 recipes-done/testing-subset-of-tests.md
 recipes-unfinished/testing-controllers.md
-recipes-unfinished/testing-mock-http-requests.md
 recipes-unfinished/testing-private-service-methods.md
 recipes-unfinished/testing-providers-with-config.md
 recipes-unfinished/testing-simulate-click-events.md
@@ -118,11 +122,15 @@ recipes-done/big-picture-es5-array-functions.md
 recipes-done/big-picture-execute-code-at-startup.md
 recipes-done/big-picture-finding-performance-bottlenecks.md
 parts/code/big-picture-finding-performance-bottlenecks-code.md
+recipes-done/big-picture-redirect-to-error-page.md
 recipes-done/big-picture-regular-urls-without-hash.md
 recipes-done/big-picture-report-backend-errors.md
 parts/code/big-picture-report-backend-errors-code.md
+recipes-done/big-picture-router-optionals-and-wildcards.md
+parts/code/big-picture-router-optionals-and-wildcards-code.md
 recipes-done/big-picture-save-apply.md
 recipes-done/big-picture-spreading-route-definitions.md
+recipes-done/big-picture-unsubscribe-to-events.md
 recipes-done/big-picture-use-the-dot-correctly.md
 parts/code/big-picture-use-the-dot-correctly-code.md
 recipes-done/big-picture-use-the-scope-right.md
@@ -130,9 +138,7 @@ recipes-unfinished/big-picture-angular-functions.md
 recipes-unfinished/big-picture-angularjs-coffeescript.md
 recipes-unfinished/big-picture-desktop-like-applications.md
 recipes-unfinished/big-picture-gmail-like-page-flipping.md
-recipes-unfinished/big-picture-handle-exceptions.md
 recipes-unfinished/big-picture-manage-dependencies-bower.md
 recipes-unfinished/big-picture-ng-model-controller.md
 recipes-unfinished/big-picture-prefill-template-cache.md
-recipes-unfinished/big-picture-router-functions-and-wildcards.md
 
