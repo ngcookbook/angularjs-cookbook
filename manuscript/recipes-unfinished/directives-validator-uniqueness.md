@@ -10,7 +10,8 @@ For this we have to write a custom validator. A validator is nothing else but a 
 
 As an example we take the following excerpt from the `index.html`:
 
-    <input type="text" name="login" ng-model="login" unique="checkUniqueLogin" required />
+    <input type="text" name="login" ng-model="login"
+           unique="checkUniqueLogin" required/>
 
 The attribute `unique` will be our directive and `checkUniqueLogin` is a function that has to exist on the current
 scope. This function is called with the value of `login` and returns a promise with either `true` or `false`

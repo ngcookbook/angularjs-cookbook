@@ -1,20 +1,16 @@
 <html ng-app="cookbookApp">
 <head>
-    <title>AngularJS Cookbook</title>
-    <script src="../vendor/angular.js"></script>
-    <script src="prism/prism.js"></script>
-    <script src="application.js"></script>
-    <link rel="stylesheet" ng-href="prism/prism.css"/>
+  <script src="../vendor/angular.js"></script>
+  <script src="prism/prism.js"></script>
+  <script src="application.js"></script>
+  <link rel="stylesheet" ng-href="prism/prism.css"/>
 </head>
 <body>
-
-<pre><code class="language-markup">
+  <pre><code class="language-markup">
     <ul>
-        <li ng-repeat="task in tasks">{{ task }}</li>
+      <li ng-repeat="task in tasks">{{ task }}</li>
     </ul>
     <button ng-click="add()">Add task</button>
-</code></pre>
-
-
+  </code></pre>
 </body>
 </html>

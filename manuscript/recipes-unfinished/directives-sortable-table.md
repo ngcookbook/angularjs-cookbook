@@ -1,4 +1,4 @@
-# TODO: Make a sortable table
+# Make a sortable table
 
 ## Problem
 

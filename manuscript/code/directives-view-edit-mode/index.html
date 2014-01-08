@@ -1,17 +1,13 @@
 <html ng-app="cookbookApp">
 <head>
-    <title>AngularJS Cookbook</title>
-    <script src="../vendor/angular.js"></script>
-    <script src="application.js"></script>
-    <link rel="stylesheet" ng-href="style.css"/>
+  <script src="../vendor/angular.js"></script>
+  <script src="application.js"></script>
+  <link rel="stylesheet" ng-href="style.css"/>
 </head>
 <body ng-controller="MainController">
-
-    <label><input type="checkbox" ng-model="editMode"> edit mode</label>
-
-    <p>
-        <input type="text" ng-model="name" edit-mode />
-    </p>
-
+  <label><input type="checkbox" ng-model="editMode"> edit mode</label>
+  <p>
+    <input type="text" ng-model="name" edit-mode />
+  </p>
 </body>
 </html>

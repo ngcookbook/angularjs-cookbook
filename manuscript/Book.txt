@@ -20,6 +20,7 @@ recipes-unfinished/directives-dynamic-service-loading.md
 parts/code/directives-dynamic-service-loading-code.md
 recipes-unfinished/directives-dynamic-template-url.md
 parts/code/directives-dynamic-template-url-code.md
+recipes-unfinished/directives-http-request-loading-box.md
 recipes-unfinished/directives-initialized-data-on-startup.md
 recipes-unfinished/directives-markdown-live-preview.md
 parts/code/directives-markdown-live-preview-code.md

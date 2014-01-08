@@ -1,10 +1,10 @@
 angular.module('cookbookApp', [])
-    .controller('MainController', function($scope) {
-        $scope.tasks = [];
+  .controller('MainController', function($scope) {
+    $scope.tasks = [];
 
-        $scope.addTask = function(taskName) {
-            $scope.tasks.push(taskName);
-        };
-    });
+    $scope.addTask = function(taskName) {
+      $scope.tasks.push(taskName);
+    };
+  });
 
 

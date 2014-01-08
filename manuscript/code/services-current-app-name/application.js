@@ -1,6 +1,6 @@
 angular.module('cookbookApp', [])
-   .controller('MainController', function($scope, $rootElement) {
-        $scope.appName = $rootElement.attr('ng-app');
-    });
+  .controller('MainController', function($scope, $rootElement) {
+    $scope.appName = $rootElement.attr('ng-app');
+  });
 
 

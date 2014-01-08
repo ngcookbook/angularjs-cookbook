@@ -1,4 +1,4 @@
-# Theme support
+# Theme support {#theme-support}
 
 ## Problem
 

@@ -1,21 +1,21 @@
 <html ng-app="cookbookApp">
 <head>
-    <title>AngularJS Cookbook</title>
-    <script src="../vendor/angular.js"></script>
-    <script src="application.js"></script>
-    <link rel="stylesheet" ng-href="style.css"/>
+  <script src="../vendor/angular.js"></script>
+  <script src="application.js"></script>
+  <link rel="stylesheet" ng-href="style.css"/>
 </head>
 <body>
-    <div ng-controller="MainController">
-        <button ng-click="addNotification(false)">Add timed notification</button>
-        <button ng-click="addNotification(true)">Add sticky notification</button>
-    </div>
-
-    <ul class="notifications" ng-controller="NotificationsController">
-        {{notificationList}}
-        <li ng-repeat="notification in notifications.getList()" class="animate-repeat">
-            <a href ng-bind="notification.text" ng-click="notifications.remove(notification.id)"></a>
-        </li>
-    </ul>
+  <div ng-controller="MainController">
+    <button ng-click="addNotification(false)">Timed notification</button>
+    <button ng-click="addNotification(true)">Sticky notification</button>
+  </div>
+  <ul class="notifications" ng-controller="NotificationsController">
+    {{notificationList}}
+    <li ng-repeat="notification in notifications.getList()"
+        class="animate-repeat">
+      <a href ng-bind="notification.text"
+         ng-click="notifications.remove(notification.id)"></a>
+    </li>
+  </ul>
 </body>
 </html>

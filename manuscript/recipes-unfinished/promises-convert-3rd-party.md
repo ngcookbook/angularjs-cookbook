@@ -1,4 +1,4 @@
-# Convert a 3rd party promise with $q.when
+# Convert a 3rd party promise with $q.when {#promises-convert-3rd-party}
 
 ## Problem
 

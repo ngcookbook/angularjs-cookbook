@@ -1,4 +1,5 @@
 # All / none / invert for a list of checkboxes
+{#controllers-list-all-none-invert}
 
 ## Problem
 

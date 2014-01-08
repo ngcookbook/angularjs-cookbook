@@ -1,16 +1,15 @@
 <html ng-app="cookbookApp">
 <head>
-    <title>AngularJS Cookbook</title>
-    <script src="../vendor/angular.js"></script>
-    <script src="application.js"></script>
+  <script src="../vendor/angular.js"></script>
+  <script src="application.js"></script>
 </head>
 <body ng-controller="MainController">
-    <button ng-click="addItem()">Add item</button>
+  <button ng-click="addItem()">Add item</button>
+012345678901234567890123456789012345678901234567890123456789012345678901234567
+  <p>Listing {{items.length}} items.</p>
 
-    <p>Listing {{items.length}} items.</p>
-
-    <ul>
-        <li ng-repeat="item in items | bogosort" ng-bind="item"></li>
-    </ul>
+  <ul>
+    <li ng-repeat="item in items | bogosort" ng-bind="item"></li>
+  </ul>
 </body>
 </html>

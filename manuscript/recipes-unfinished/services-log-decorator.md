@@ -21,15 +21,15 @@ We create a new object which is api compatibility to the `$log` service. We do t
 dynamically and call the original service after we modified the log message.
 
     .config(function($provide) {
-        $provide.decorator('$log', function($delegate) {
-            var logger = {};
-            ['log', 'info', 'warn', 'error', 'debug'].forEach(function(logLevel) {
-                logger[logLevel] = function(message) {
-                    $delegate[logLevel]('[' + logLevel.toLocaleUpperCase() + '] ' + message);
-                };
-            });
-            return logger;
+      $provide.decorator('$log', function($delegate) {
+        var logger = {};
+        ['log','info','warn','error','debug'].forEach(function(level) {
+          logger[level] = function(message) {
+            $delegate[level]('[' + level.toUpperCase() + '] ' + message);
+          };
         });
+        return logger;
+      });
     })
 
 ### Complete example

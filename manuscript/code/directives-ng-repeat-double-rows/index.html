@@ -1,18 +1,17 @@
 <html ng-app="cookbookApp">
 <head>
-    <title>AngularJS Cookbook</title>
-    <script src="../vendor/angular.js"></script>
-    <script src="application.js"></script>
+  <script src="../vendor/angular.js"></script>
+  <script src="application.js"></script>
 </head>
 <body ng-controller="MainController">
-    <table border="1">
-        <tr ng-repeat-start="user in users">
-            <td colspan="2">{{user.name}}</td>
-        </tr>
-        <tr ng-repeat-end>
-            <td>{{user.age}}</td>
-            <td>{{user.gender}}</td>
-        </tr>
-    </table>
+  <table border="1">
+    <tr ng-repeat-start="user in users">
+      <td colspan="2">{{user.name}}</td>
+    </tr>
+    <tr ng-repeat-end>
+      <td>{{user.age}}</td>
+      <td>{{user.gender}}</td>
+    </tr>
+  </table>
 </body>
 </html>

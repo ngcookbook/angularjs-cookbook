@@ -17,20 +17,20 @@ elements and checks if the array is now sorted. If not, it randomizes the elemen
 
 The demo application implements bogosort as a filter:
 
-<<(code/big-pictures-finding-performance-bottlenecks/index.html)
+<<(code/big-picture-finding-performance-bottlenecks/index.html)
 
-<<(code/big-pictures-finding-performance-bottlenecks/application.js)
+<<(code/big-picture-finding-performance-bottlenecks/application.js)
 
 Now to meassure the performance, you open the performance tab in Batarang you and use the features of your
 application which are slow. Batarang now sums the time up for each watcher used.
 
 In the following screenshot you the result after we added some items to the array.
 
-![Bogosort with 3 items](images/big-pictures-finding-performance-bottlenecks-3-items.png)
+![Bogosort with 3 items](images/big-picture-finding-performance-bottlenecks-3-items.png)
 
-![Bogosort with 6 items](images/big-pictures-finding-performance-bottlenecks-6-items.png)
+![Bogosort with 6 items](images/big-picture-finding-performance-bottlenecks-6-items.png)
 
-![Bogosort with 10 items](images/big-pictures-finding-performance-bottlenecks-10-items.png)
+![Bogosort with 10 items](images/big-picture-finding-performance-bottlenecks-10-items.png)
 
 In the screenshot you see how the time for the collection increases. With 10 items it's 99,8% for the collection watcher. So here's definitely the bottleneck. Of course most of the time it's not that obvious but it gives you a clue where to start.
 

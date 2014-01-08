@@ -1,17 +1,16 @@
 <html ng-app="cookbookApp">
 <head>
-    <title>AngularJS Cookbook</title>
-    <script src="../vendor/angular.js"></script>
-    <script src="application.js"></script>
-    <link rel="stylesheet" ng-href="style.css"/>
+  <script src="../vendor/angular.js"></script>
+  <script src="application.js"></script>
+  <link rel="stylesheet" ng-href="style.css"/>
 </head>
 <body ng-controller="MainController">
-    <form name="form" ng-submit="addTask(taskName)" novalidate>
-        <input type="text" ng-model="taskName" />
-    </form>
+  <form name="form" ng-submit="addTask(taskName)" novalidate>
+    <input type="text" ng-model="taskName" />
+  </form>
 
-    <ul>
-        <li ng-repeat="task in tasks track by $index" ng-bind="task"></li>
-    </ul>
+  <ul>
+    <li ng-repeat="task in tasks track by $index" ng-bind="task"></li>
+  </ul>
 </body>
 </html>

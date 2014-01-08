@@ -1,21 +1,25 @@
-# What all the extra js files are doing?
+# What all the extra .js files are doing?
 
 ## Problem
 
-AngularJS ist not only angular.js but several files. Which are there and what are they doing?
+AngularJS consists not only of angular.js but several files. You want to know which are they and what do they do?
 
 
 ## Solution
 
+Considering you downloaded the AngularJS zip file from <http://angularjs.org>, here are the files and folders with
+theier function.
+
 ### i18n folder
 
-Contains localization files for date / time / number formatting. E.g. `angular-locale_de-de.js`.
+The i18n Contains localization files for date / time / number formatting. You have to include the language file in
+your index file. The files are named like `angular-locale_de-de.js`.
 
 ### docs folder
 
-The whole documention offline. To get this to work, start an http server in the root and navigate your
-browser to `/docs`. Remember that AngularJS does a location push. If you you navigate through the documentation you
-can do a browser reload. You always have to start a `/docs` again.
+The whole documentation as offline version. To get this to work, you have to start an http server in the root and navigate your browser to `/docs`. Remember that AngularJS does a location push. If you navigate through the documentation, you
+can't do a browser reload. You always have to start a `/docs` again or set up special rewrite rules for your http
+server.
 
 ### angular-animate.js
 
@@ -25,26 +29,31 @@ Include with `angular.module('myApp', ['ngAnimate'])`.
 
 ### angular-cookies.js
 
-Include with `angular.module('myApp', ['ngAnimate'])`.
+Include with `angular.module('myApp', ['ngCookies'])`.
 
-Services:
+Services included in this module:
 
-* `$cookies`: Wrapper around cookies
-* `$cookieStore`: Objects put or retrieved from the store are automatically (de)serialized.
+* `$cookies`: This is a wrapper around browser cookies
+* `$cookieStore`: Objects you put or retrieve from the cookie store are automatically (de)serialized.
 
 ### angular-loader.js
 
-%% http://stackoverflow.com/questions/15777449/what-is-angular-loader-js-for
+A module loader for AngularJS modules.
 
-Module loader for Angular modules. If you are loading multiple script files containing Angular modules, you can load them asynchronously and in any order as long as you load this file first. Often the contents of this file are copy&pasted into the index.html to avoid even the initial request to angular-loader.min.js.
+If you are loading multiple script files containing AngularJS modules, you can load them asynchronously and in any
+order. You only have to make sure that you load this file first.
+
+T> It's a good idea to put the contents of this file is into your `index.html` to save the initial request.
 
 ### angular-mocks.js (Testing)
 
-This file contains an implementation of mocks that makes testing angular apps even easier. Your unit/integration test harness should load this file after angular-<version>.js is loaded.
+This file contains an implementation of mocks that makes is easier to test your app. It includes the `$httpBackend`, which you need to for proper testing the `$http` service. Additionally it contains overwrites for existing services like
+`$exceptionHandler`, `$interval`, `$log` and `$timeout`.
 
 ### angular-resource.js
 
-The ngResource module which provide $resource service. An abstraction for rest services.
+The `ngResource` module contains just one service: `$resource`. This service is build on top of `$http` and can
+abstract a rest api.
 
 ### angular-route.js
 
@@ -52,19 +61,21 @@ The route provider has now it's own file / module. Usually you want to include i
 
 ### angular-sanitize.js
 
-ngSanitize module which provide ngBindHtml directive, linky filter and $sanitize service.
+The `ngSanitize` module includes:
+
+* `ng-bind-html` directive, which allows you to output sanitized html
+* linky filter which turns text links into hyperlinks
+* $sanitize service which is whitelist filter for html
 
 ### angular-scenario.js (Testing)
 
-This file is a very nifty JavaScript file that allows you to write and execute end-to-end tests for angular applications.
+This file helps you writing and executing end-to-end tests for angular applications.
 
 ### angular-touch.js
 
-Handles touch events in AngularJS. Implements Fast click.
+Handles touch events in AngularJS. Implements Fast click which eliminats the 300ms delay between a tap and the
+actual firing of a click event on mobile browsers.
 
 ### angular.js
 
-The core of AngularJS. You have to include this.
-
-%% TODO: rework of documentation
-%% http://docs.angularjs.org/api overview
+The core of AngularJS. You always have to include this.
