@@ -18,7 +18,7 @@ checked *Enable*, you can can use the *Models* tab to inspect you scopes.
 
 ![Batarang Scopes](images/big-picture-debug-scopes-batarang.png)
 
-In this example, we see the [list recipe](#controllers-list-all-none-invert). What you see:
+In this example, we see the [list recipe](#list-all-none-invert). What you see:
 
 * Scope (002): the root scope
 * Scope (003): the scope of ng-repeat

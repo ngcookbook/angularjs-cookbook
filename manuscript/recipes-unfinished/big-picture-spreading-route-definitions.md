@@ -2,12 +2,11 @@
 
 ## Problem
 
-You have several modules and want to have each module have it's own route definitions.
+You have several modules and want each module to have it's own route definitions.
 
 ## Solution
 
-You're lucky. AngularJS allows each module to have its own route definition. Every module can have its own config
-function with an injected `$routeProvider` service. With that you prevent one big monolithic route definition.
+You're lucky. AngularJS allows each module to have its own route definition. Every module can have its own config function with an injected `$routeProvider` service. With that, you prevent one big monolithic route definition.
 
     angular.module('cookbookRecipes', []).config(function ($routeProvider) {
         $routeProvider.when('/recipes', { ... });
