@@ -2,13 +2,11 @@
 
 ## Problem
 
-You're building complex loops where you don't need it or including other libraries to ease manipulating arrays but
-don't know about EcmaScript 5.
+You're building complex loops where you don't need it or you're including other libraries to ease manipulating arrays but don't know about EcmaScript 5.
 
 ## Solution
 
-Until EcmaScript 5, working with arrays in JavaScript was no fun and usually ended in including underscore or lodash
-to ease the pain with working with arrays.
+Until EcmaScript 5, working with arrays in JavaScript was no fun and usually ended in including underscore or lodash to ease the pain of working with arrays.
 
 T> If you have to support older browsers, you can use a polyfill like [array-generics](https://github
 .com/plusdude/array-generics) which emulates the functions if not available. See [Compatibility Matrix](http://kangax
@@ -27,9 +25,8 @@ T> If you have to support older browsers, you can use a polyfill like [array-gen
     // => a[2] = 9
 
 This is similar to angular.forEach(). So which should you use? At the moment you should use `angular.forEach()`. If you look at this [comparison](http://jsperf.com/foreach-vs-loop/20),
-you see that the ES5 forEach implementation is not the fastest. The AngularJS version in this comparision uses ES5
-forEach if it's available. This is changed by this [commit](https://github.com/angular/angular.js/issues/3221). Now
-it's always using the faster for loop.
+you see that the ES5 forEach implementation is not the fastest. The AngularJS version in this comparison uses ES5 forEach if it's available. This is changed by this [commit](https://github.com/angular/angular.js/issues/3221). Now
+it's always using the fastest for loop.
 
 
 ### every
@@ -71,7 +68,7 @@ Creates a new array with only the elements that meet the condition.
     });
     // => [2, 4]
 
-Returns an array (can be smaller than the original array)
+Returns an array (can be smaller than the original array).
 
 
 ### map
@@ -85,7 +82,7 @@ Creates a new array where every element is transformed by the function.
     });
     // => [1, 4, 9]
 
-Returns an array (is of the same length as the original array)
+Returns an array (is of the same length as the original array).
 
 
 ### indexOf
@@ -94,7 +91,7 @@ Returns an array (is of the same length as the original array)
 
 Returns the index of the element.
 
-The following example finds all occurences of an element in the array:
+The following example finds all occurrences of an element in the array:
 
     var indices = [];
     var i = array.indexOf(element);

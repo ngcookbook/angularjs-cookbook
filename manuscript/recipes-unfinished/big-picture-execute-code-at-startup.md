@@ -2,8 +2,7 @@
 
 ## Problem
 
-You want to execute some code when AngularJS start. It should run before any controllers and directives and not be
-tied to any view.
+You want to execute some code when AngularJS start. It should run before any controllers and directives and should not be tied to any view.
 
 
 ## Solution
