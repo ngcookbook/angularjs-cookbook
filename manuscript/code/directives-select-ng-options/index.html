@@ -38,17 +38,23 @@
   };">
 
     <p>label for (key , value) in object: {{obj1}}</p>
-    <select ng-model="obj1" ng-options="roleObj.name for (roleId, roleObj) in roles"></select><br>
+    <select ng-model="obj1"
+            ng-options="obj.name for (roleId, obj) in roles">
+    </select><br>
 
     <p>select as label for (key , value) in object: {{obj2}}</p>
-    <select ng-model="obj2" ng-options="roleId as roleObj.name for (roleId, roleObj) in roles"></select><br>
+    <select ng-model="obj2"
+            ng-options="id as obj.name for (id, obj) in roles">
+    </select><br>
 
     <p>label group by group for (key, value) in object: {{obj3}}</p>
-    <select ng-model="obj3" ng-options="roleObj.name group by roleObj.rights for (roleId, roleObj) in roles"></select><br>
+    <select ng-model="obj3"
+            ng-options="obj.name group by obj.rights for (id, obj) in roles">
+    </select><br>
 
     <p>select as label group by group for (key, value) in object: {{obj4}}</p>
     <select ng-model="obj4"
-            ng-options="roleId as roleObj.name group by roleObj.rights for (roleId, roleObj) in roles">
+            ng-options="id as obj.name group by obj.rights for (id, obj) in roles">
     </select><br>
   </div>
 
