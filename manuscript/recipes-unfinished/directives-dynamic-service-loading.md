@@ -7,10 +7,9 @@ You have a lot of select boxes whose items are loaded from the server. You don't
 
 ## Solution
 
-Instead of let the injector automatically inject the services by name in the directive definition,
-you trigger the injection process manually. To do this, you use the `$injector` instance.
+Instead of letting the injector automatically inject the services by name in the directive definition, you trigger the injection process manually. To do this, you use the `$injector` instance.
 
-In this example we create a directive with the following attributes:
+In this example, we create a directive with the following attributes:
 
 * *model:* Translates to ng-model in the select field
 * *resource:* The service name and the function of the service you want to use separated by a dot.
@@ -26,7 +25,7 @@ The directive with looks like this:
 
 The directive `dynamicSelect` itself is not that complicated. We have an isolated scope where we `model`, `resourceId` and `resourceLabel`. `resource` is directly read through the attrs function parameters because we don't allow to dynamically change the service and we're not needing it in the template. (See recipe use the scope right TODO).
 
-In the link function we split the string from resource into to parts and write them into an object for better readability. Then we just use `$injector.get` to return the service as object. We then just use the function as read into `params.fn`. We use `.then` here directly because we assume that our service function returns a promise.
+In the link function, we split the string from resource into two parts and write them into an object for better readability. Then we just use `$injector.get` to return the service as object. We then use the function as read into `params.fn`. We use `.then` here directly because we assume that our service function returns a promise.
 
 <<(code/directives-dynamic-service-loading/application.js)
 

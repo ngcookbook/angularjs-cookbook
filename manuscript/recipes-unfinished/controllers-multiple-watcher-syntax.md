@@ -2,14 +2,12 @@
 
 ## Problem
 
-You want to recalculate some function on the changing of different watches. You don't want to
-copy it several times.
+You want to recalculate some function on the changing of different watches. You don't want to copy it several times.
 
 
 ## Solution
 
-AngularJS has a not so obvious solution for it. You can specify multiple watchers in an array like syntax. Instead of
- returning single variables for the new and old value, you get arrays.
+AngularJS has a not so obvious solution for it. You can specify multiple watchers in an array like syntax. Instead of returning single variables for the new and old value, you get arrays.
 
 Here's the code:
 

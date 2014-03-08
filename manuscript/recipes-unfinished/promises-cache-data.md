@@ -9,7 +9,7 @@ The fetching of the data from the memory cache is synchronous. If the cache miss
 ## Solution
 
 The solution is to always return a promise. If the data is cached, we just immediately resolve the promise.
-We should you how to do this very easily.
+We could you how to do this very easily.
 
 ### Covert a value to a promise
 
@@ -30,8 +30,7 @@ T> `$q.when` is capable of a lot more, see [convert 3rd party promises](#promise
 
 ### Promise all the time
 
-To always return a promise, we check if the the return value is already cached. If it it,
-we return a resolved promise with `$q.when`. If not we call our promise and on success we'll cache the result.
+To always return a promise, we check if the the return value is already cached. If it is, we return a resolved promise with `$q.when`. If not, we call our promise and on success we'll cache the result.
 
     if (cache) {
         return $q.when(cache);

@@ -9,7 +9,7 @@ You want to support different themes which you can change on the fly.
 **Overview:**
 
 * Create a controller for the `<head>` tag which changes the href to your stylesheet on the fly.
-* Create a service which contains the active theme and supports changing of it.
+* Create a service which contains the active theme and supports the changing of it.
 * Inject the service where you want to change the theme.
 
 **The code:**
@@ -38,4 +38,4 @@ The style are just examples to have a working version.
 <<(code/directives-theme-support/theme-greenish.css)
 
 %% TODO insert link when recipe is ready
-Read more about communication between controller in Recipe [controller-to-controller]
+Read more about communication between controller in Recipe [controller-to-controller].

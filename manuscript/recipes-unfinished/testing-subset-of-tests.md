@@ -7,7 +7,7 @@ You're testing and don't want to always run all of your tests.
 
 ## Solution
 
-Jasmine has to really handy methods for this:
+Jasmine has two really handy methods for this:
 
 * ddescribe: Runs only the current describe block
 * iit: Runs only the current test

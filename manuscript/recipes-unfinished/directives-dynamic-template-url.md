@@ -7,11 +7,9 @@ You have several html templates which you want to use dynamically inside your di
 
 ## Solution
 
-Inside a directive `templateUrl` cannot only take a string but also a function. the function has the element and the
-attributes as parameters.
+Inside a directive, `templateUrl` cannot only take a string but also a function. The function has the element and the attributes as parameters.
 
-In the following example we dynamically fill a textarea with two different templates which are loaded dynamically. We
- write a directive which named 'prefill' which takes the name of the template as argument.
+In the following example, we dynamically fill a textarea with two different templates which are loaded dynamically. We write a directive which is named 'prefill'. This takes the name of the template as argument.
 
 <<(code/directives-dynamic-template-url/index.html)
 

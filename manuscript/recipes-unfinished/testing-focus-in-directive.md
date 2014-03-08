@@ -6,11 +6,9 @@ You want to test focus on an element but don't know how.
 
 ## Solution
 
-The trick here is to append your element you want to test to the body. You can only test focus on element which are
-bound to the DOM.
+The trick here is to append the element you want to test with the body. You can only test focus on elements which are bound to the DOM.
 
-In this example we take simple directive which just gets the focus. We create a new scope and create an template with
- our focus directive. After we compiled it, we attach it the body. Checks on focus now work.
+In this example, we take simple directive which just gets the focus. We create a new scope and create a template with  our focus directive. After we compiled it, we attach it to the body. Checks on focus now work.
 
 
     it('should focus the input field', inject(function ($rootScope, $compile) {

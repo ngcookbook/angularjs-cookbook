@@ -11,7 +11,7 @@ Here we give examples for every way you can use `ng-options`. Source code ((((he
 
 ### Array data sources
 
-For all the examples we use the following array:
+For all the examples, we use the following array:
 
     users = [
         { id: '800', name: 'Bill Mayer', role: 'Admin' },
@@ -24,7 +24,7 @@ What you'll see in all examples is that `ng-options` sets the values for arrays 
 
 Select tag with `ng-options`:
 
-    <select ng-model="arr1" ng-options="user.name for user in users"></select>
+    <select ng-model="arr1" ng-options="user.name for user in users">
 
 The resulting options:
 
@@ -39,7 +39,7 @@ The contents of `ng-model`:
 
 Select tag with `ng-options`:
 
-    <select ng-model="arr2" ng-options="user.id as user.name for user in users"></select>
+    <select ng-model="arr2" ng-options="user.id as user.name for user in users">
 
 The resulting options:
 
@@ -54,7 +54,8 @@ The contents of `ng-model`:
 
 Select tag with `ng-options`:
 
-    <select ng-model="arr3" ng-options="user.name group by user.role for user in users"></select>
+    <select ng-model="arr3"
+            ng-options="user.name group by user.role for user in users">
 
 The resulting options:
 
@@ -73,7 +74,9 @@ The contents of `ng-model`:
 
 Select tag with `ng-options`:
 
-    <select ng-model="arr4" ng-options="user.id as user.name group by user.role for user in users"></select>
+    <select ng-model="arr4"
+            ng-options="user.id as user.name group by user.role for user in
+         users">
 
 The resulting options:
 
@@ -102,7 +105,7 @@ For all the examples we use the following object:
 
 Select tag with `ng-options`:
 
-    <select ng-model="obj1" ng-options="roleId for (roleId, roleObj) in roles"></select>
+    <select ng-model="obj1" ng-options="obj.name for (roleId, obj) in roles">
 
 The resulting options:
 
@@ -117,7 +120,7 @@ The contents of `ng-model`:
 
 Select tag with `ng-options`:
 
-    <select ng-model="obj2" ng-options="roleId as roleObj.name for (roleId, roleObj) in roles"></select>
+    <select ng-model="obj2" ng-options="id as obj.name for (id, obj) in roles">
 
 The resulting options:
 
@@ -132,7 +135,8 @@ The contents of `ng-model`:
 
 Select tag with `ng-options`:
 
-    <select ng-model="obj3" ng-options="roleObj.name group by roleObj.rights for (roleId, roleObj) in roles"></select>
+    <select ng-model="obj3"
+            ng-options="obj.name group by obj.rights for (id, obj) in roles">
 
 The resulting options:
 
@@ -152,8 +156,7 @@ The contents of `ng-model`:
 Select tag with `ng-options`:
 
     <select ng-model="obj4"
-            ng-options="roleId as roleObj.name group by roleObj.rights for (roleId, roleObj) in roles">
-    </select>
+            ng-options="id as obj.name group by obj.rights for (id, obj) in roles">
 
 The resulting options:
 
@@ -170,8 +173,7 @@ The contents of `ng-model`:
 
 ### Custom empty option
 
-If you don't want to show a blank field but your own custom label, you can just insert an option tag with a blank
-value.
+If you don't want to show a blank field but your own custom label, you can just insert an option tag with a blank value.
 
     <select ng-model="choose" ng-options="user.name for user in users">
         <option value="">- Choose user -</option>

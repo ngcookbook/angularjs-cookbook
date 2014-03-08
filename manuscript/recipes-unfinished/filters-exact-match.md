@@ -2,15 +2,14 @@
 
 ## Problem
 
-If you use the normal filter `| filter:search` with an input field, you also getting
-substrings of your search. But it's easy to do an exact matching.
+If you use the normal filter `| filter:search` with an input field, you also getting substrings of your search. But it's easy to do an exact matching.
 
 
 ## Solution
 
 The filter filter has a third argument which allows for exact matching
 
-We have an array of object like `[{ name: 'John', gender: 'male' }, { name: 'Anne',
+We have an array of objects like `[{ name: 'John', gender: 'male' }, { name: 'Anne',
 gender: 'female' }]`. If we would filter for `male` with the default filter filter we would get also all females.
 
 

@@ -14,18 +14,21 @@ request is started, the count changes and so does `$http.pendingRequests.length`
 we get the result of `http.pendingRequests.length > 0` in the variable `value`. This is either `true` or `false`. We
 write the result in `$scope.waiting` and our div is visible or hidden depending of the state.
 
-    .directive('waitingForRequest', function($http, $interval) {
-        return {
-            restrict: 'E',
-            scope: {},
-            template: '<div ng-show="waiting">Waiting for request to finish...</div>',
-            controller: function($scope) {
-                $scope.$watch(function() { return $http.pendingRequests.length > 0; }, function(value) {
-                    console.log('Pending requests: '+ $http.pendingRequests.length);
-                    $scope.waiting = value;
-                });
-            }
-        };
+    .directive('waitingForRequest', function($http) {
+      var pendingRequests = function() {
+        return $http.pendingRequests.length > 0;
+      };
+      return {
+        restrict: 'E',
+        scope: {},
+        template: '<div ng-show="waiting">Waiting for request to finish...</div>',
+        controller: function($scope) {
+          $scope.$watch(pendingRequests, function(value) {
+            console.log('Pending requests: '+ $http.pendingRequests.length);
+            $scope.waiting = value;
+          });
+        }
+      };
     })
 
 ## Discussion

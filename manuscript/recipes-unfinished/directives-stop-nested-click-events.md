@@ -2,7 +2,7 @@
 
 ## Problem
 
-You have several nested elements with `ng-click`. If you click the front element you don't want the click function of
+You have several nested elements with `ng-click`. If you click the front element, you don't want the click function of
 the back element to be triggered.
 
 
@@ -11,8 +11,7 @@ the back element to be triggered.
 The trick here is to use `$event` which is injected into `ng-click`. `$event` is the normal JavaScript event object
 and thus you can use `stopPropagation()` to prevent the bubbling of events.
 
-You pass `$event` as parameter of the topmost `ng-click` and call `$event.stopPropagation()` in the function
-declaration inside of the controller.
+You pass `$event` as parameter of the topmost `ng-click` and call `event.stopPropagation()` in the function declaration inside of the controller.
 
     <div ng-click="back()">
         ...
