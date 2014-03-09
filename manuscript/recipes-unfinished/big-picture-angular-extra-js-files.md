@@ -2,13 +2,14 @@
 
 ## Problem
 
-AngularJS consists not only of angular.js but several files. You want to know which are they and what do they do?
+AngularJS consists not only of a single file *angular.js* but several files.
+You want to know which are there and what do they do?
 
 
 ## Solution
 
 Considering you downloaded the AngularJS zip file from <http://angularjs.org>, here are the files and folders with
-theier function.
+their function.
 
 ### i18n folder
 

@@ -5,6 +5,8 @@ frontmatter/about-the-author.md
 parts/mainmatter.md
 
 parts/directives.md
+recipes-done/directives-svg-clock.md
+parts/code/directives-svg-clock-code.md
 recipes-unfinished/directives-birthdate-select.md
 parts/code/directives-birthdate-select-code.md
 recipes-unfinished/directives-change-the-curly-braces-syntax.md
@@ -41,8 +43,6 @@ parts/code/directives-stacked-bar-chart-code.md
 recipes-unfinished/directives-stop-nested-click-events.md
 recipes-unfinished/directives-submit-form-on-enter.md
 parts/code/directives-submit-form-on-enter-code.md
-recipes-unfinished/directives-svg-clock.md
-parts/code/directives-svg-clock-code.md
 recipes-unfinished/directives-syntax-highlighter.md
 parts/code/directives-syntax-highlighter-code.md
 recipes-unfinished/directives-textarea-maxlength-counter.md
@@ -73,7 +73,6 @@ recipes-unfinished/services-heavy-computations.md
 parts/code/services-heavy-computations-code.md
 recipes-unfinished/services-how-to-structure.md
 parts/code/services-how-to-structure-code.md
-recipes-unfinished/services-http-global-timeout.md
 recipes-unfinished/services-log-decorator.md
 parts/code/services-log-decorator-code.md
 recipes-unfinished/services-notifications.md
@@ -108,21 +107,20 @@ parts/code/testing-mock-http-requests-code.md
 recipes-unfinished/testing-subset-of-tests.md
 
 parts/big-picture.md
+recipes-done/big-picture-redirect-to-error-page.md
+recipes-done/big-picture-spreading-route-definitions.md
+recipes-done/big-picture-stop-timers-before-scope-destroy.md
 recipes-unfinished/big-picture-angular-extra-js-files.md
-recipes-unfinished/big-picture-clean-up-with-scope-destroy.md
 recipes-unfinished/big-picture-debug-scopes.md
 recipes-unfinished/big-picture-es5-array-functions.md
 recipes-unfinished/big-picture-execute-code-at-startup.md
 recipes-unfinished/big-picture-finding-performance-bottlenecks.md
 parts/code/big-picture-finding-performance-bottlenecks-code.md
-recipes-unfinished/big-picture-redirect-to-error-page.md
 recipes-unfinished/big-picture-regular-urls-without-hash.md
 recipes-unfinished/big-picture-report-backend-errors.md
 parts/code/big-picture-report-backend-errors-code.md
 recipes-unfinished/big-picture-router-optionals-and-wildcards.md
 parts/code/big-picture-router-optionals-and-wildcards-code.md
-recipes-unfinished/big-picture-save-apply.md
-recipes-unfinished/big-picture-spreading-route-definitions.md
 recipes-unfinished/big-picture-unsubscribe-to-events.md
 recipes-unfinished/big-picture-use-the-dot-correctly.md
 parts/code/big-picture-use-the-dot-correctly-code.md
