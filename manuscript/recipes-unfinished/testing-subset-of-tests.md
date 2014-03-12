@@ -12,7 +12,8 @@ Jasmine has two really handy methods for this:
 * ddescribe: Runs only the current describe block
 * iit: Runs only the current test
 
-If you want, you can have more than one ddescribe or iit. All tests with this special marker are run.
+If you want, you can have more than one ddescribe or iit. All tests with this
+ special marker will run.
 
 
 %% S94

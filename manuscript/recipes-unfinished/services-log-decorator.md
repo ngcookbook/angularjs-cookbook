@@ -1,15 +1,16 @@
-# Write a decorator
+# Write a decorator - change a service result without monkey patching
 
 ## Problem
 
-You want to execute additional functions before a service method is called.
+You want to change the result of a service or extend it without changing the
+service itself.
 
 ## Solution
 
 The solution is to write a decorator. Decorators can intercept calls to service (provider, factory, service,
 value) and modify them.
 
-In this example we decorate the `$log` log service to prepend the used log level to the output.
+In this example we decorate the `$log` service to prepend the used log level to the output.
 
 Decorator can only be initialized in a config block. This adds some limitations because you can't inject other
 services in the config block. You can only use the config blocks of providers.

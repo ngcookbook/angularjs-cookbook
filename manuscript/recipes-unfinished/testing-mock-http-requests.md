@@ -12,13 +12,13 @@ We take the following factory as an example:
 <<(code/testing-mock-http-requests/application.js)
 
     .factory('Task', function($http) {
-        return {
-            all: function() {
-                return $http.get('/tasks').then(function(tasksResponse){
-                    return tasksResponse.data;
-                });
-            }
-        };
+      return {
+        all: function() {
+          return $http.get('/tasks').then(function(tasksResponse){
+            return tasksResponse.data;
+          });
+        }
+      };
     });
 
 The Task factory should just return a list of the task and return the data directly instead of an response object.

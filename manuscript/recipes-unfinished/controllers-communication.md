@@ -12,16 +12,16 @@ The solution is to use a service for communication. This way you can use all the
 We use the piece of html as an example:
 
     <div ng-controller="FirstController">
-        <ul>
-            <li ng-repeat="item in items" ng-bind="item"></li>
-        </ul>
+      <ul>
+        <li ng-repeat="item in items" ng-bind="item"></li>
+      </ul>
     </div>
 
     <div ng-controller="SecondController">
-        <ul>
-            <li ng-repeat="item in items" ng-bind="item"></li>
-        </ul>
-        <button ng-click="addItem()">Add item</button>
+      <ul>
+        <li ng-repeat="item in items" ng-bind="item"></li>
+      </ul>
+      <button ng-click="addItem()">Add item</button>
     </div>
 
 We have two controllers here: `FirstController` and `SecondController` which are siblings. We use the variable `items`

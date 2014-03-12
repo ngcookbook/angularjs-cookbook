@@ -1,6 +1,4 @@
 frontmatter/introduction.md
-frontmatter/what-makes-a-good-recipe-book.md
-frontmatter/who-is-it-for.md
 frontmatter/about-the-author.md
 parts/mainmatter.md
 

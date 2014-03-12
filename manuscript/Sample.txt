@@ -1,1 +1,12 @@
 frontmatter/introduction.md
+frontmatter/about-the-author.md
+recipes-done/directives-svg-clock.md
+parts/code/directives-svg-clock-code.md
+recipes-unfinished/directives-ng-repeat-unique.md
+recipes-unfinished/services-log-decorator.md
+parts/code/services-log-decorator-code.md
+recipes-unfinished/promises-cache-data.md
+parts/code/promises-cache-data-code.md
+recipes-unfinished/testing-subset-of-tests.md
+recipes-done/big-picture-redirect-to-error-page.md
+recipes-unfinished/big-picture-unsubscribe-to-events.md
